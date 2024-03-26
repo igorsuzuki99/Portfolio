@@ -515,6 +515,24 @@ const gerarPDF = () => {
 <img src="https://github.com/igorsuzuki99/bertoti/blob/4eb1813907df5839051e2f270cdef8abbdbd2187/Projeto%20Trabalho%20de%20Gradua%C3%A7%C3%A3o%20em%20BD%20I/oracle.png" alt="oracle" width="150" height="90">
 
 ### Descrição do Projeto
-Desenvolver um sistema web para gerência de um restaurante, com controle de estoque, funcionários, pratos e fornecedores, além de gráficos para facilitar a visualização dos insights relevantes para o dono do estabelecimento.
+Desenvolver um sistema web para gerência de um restaurante, com controle de estoque e fornecedores, visualização do desempenho de funcionários e pratos, além de gráficos para facilitar a visualização dos insights relevantes para o dono do estabelecimento.
 <br><br>
+
 ### Tecnologias Utilizadas
+<img src="https://github.com/igorsuzuki99/bertoti/blob/3bdf06bd363c4a90096a16e0491ab4f8ca127638/Metodologia/javaspring.jpg" alt="spring" width="120" height="90">
+
+#### Java e Spring 
+O back-end da aplicação foi desenvolvido em Java juntamente com o framework Spring, onde foi realizada a lógica das regras de negócio para determinação de quais itens eram considerados instalados, instaláveis ou não instaláveis de acordo com os chassis que fossem pesquisados. Através do Spring Data foi possível realizar consultas de forma mais eficiente no banco de dados para tratamento das lógicas e condições no back-end.
+<br><br><br>
+
+<img src="https://github.com/igorsuzuki99/bertoti/blob/e018c7c6990ba7bf256cd85a755669c315326d8c/Metodologia/autonomousdatabase.png" alt="databaseoracle" width="120" height="80">
+
+#### Oracle Autonomous Database
+Para armazenamento dos dados, foi utilizado o Oracle Autonomous Database, um banco relacional em nuvem. Foi escolhido devido a possibilidade de consultar o banco através da internet, proporcionando uma melhor acessibilidade, praticidade e flexibilidade. Além do mais, também proporcionou maior segurança, tanto no controle de acesso ao banco, quanto na consistência dos dados, pois eram gerados backups automáticos que protegiam contra a perda de dados e facilitavam a recuperação em caso de falhas de operação.
+<br><br><br>
+
+<img src="https://github.com/igorsuzuki99/bertoti/blob/cae68c8f73db8c544a69cf0f9965b5db786d8c41/Metodologia/vue.png" alt="vue" width="240" height="60">
+
+#### Vue.js
+O front-end do sistema foi desenvolvido em Vue.js, um framework JavaScript que conta com uma arquitetura estruturada por meio da criação de componentes reusáveis. Isso facilitou o desenvolvimento da plataforma, tendo em vista que certas partes visuais da interface tinham certa semelhança.
+<br><br><br>
