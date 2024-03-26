@@ -5,23 +5,19 @@
 ### Descrição do Projeto
 Desenvolver um projeto com o objetivo de analisar os dados oficiais da COVID-19 no Estado de São Paulo e entregá-los ao usuário de forma clara e contextualizada, através de visualizações gráficas ou não-gráficas.
 <br><br>
-### Tecnologias Utilizadas
 
-<img src="https://github.com/igorsuzuki99/bertoti/blob/c282e732369eac9c6747be43ef7537406b0eecbe/Metodologia/python.png" alt="python" width="100" height="100">
+## Tecnologias Utilizadas &nbsp;&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/plotly/plotly-original.svg" width="40" height="40"/>
+        
 
-#### Python
+### Python 
 A aplicação foi desenvolvida predominantemente em Python devido à sua sintaxe clara e simplificada, além de uma vasta quantidade de bibliotecas e frameworks que suportam diversas áreas de desenvolvimento, incluindo análise de dados, que facilitou o processo de criação do primeiro projeto.
-<br><br><br>
+<br><br>
 
-<img src="https://github.com/igorsuzuki99/bertoti/blob/bb03798c11a5ba06031f163a6aefdea19bfc9a25/Metodologia/pandas.png" alt="pandas" width="200" height="80">
-
-#### Pandas
+### Pandas
 Para ajudar com a manipulação dos dados foi utilizado o Pandas, que é uma biblioteca que oferece estruturas de dados de alto desempenho, além de ferramentas de análise de dados. Ela foi usada para a leitura dos dados que eram obtidos através de CSVs. O Pandas também possui integração com a biblioteca NumPy, o que proporcionou um desempenho eficiente para as operações numéricas.
-<br><br><br>
+<br><br>
 
-<img src="https://github.com/igorsuzuki99/bertoti/blob/311ec11072ab295d94f6687b7a1923c1402b5a53/Metodologia/plotly.png" alt="plotly" width="200" height="70">
-
-#### Plotly
+### Plotly
 Para facilitar a visualização dos dados estatísticos, foi utilizado Plotly, uma biblioteca gráfica interativa para Python. Ela é usada para criar visualizações de dados interativas e dinâmicas, além de oferecer suporte a uma variedade de tipos de gráficos, desde gráficos simples até visualizações mais complexas e personalizadas. No caso desse projeto, ela foi utilizada para criar gráficos de barra e setores, para demonstrar os dados da COVID.
 <br><br><br>
 ### Contribuições Individuais
@@ -107,24 +103,19 @@ Para facilitar a visualização dos dados estatísticos, foi utilizado Plotly, u
 #### Dom Rock
 
 <img src="https://github.com/igorsuzuki99/bertoti/blob/e945b5938ce30752e0848b95343dda228c0cff3f/Metodologia/domrock.png" alt="domrock" width="230" height="70">
-<br>
 
 ### Descrição do Projeto
 Desenvolvimento de uma plataforma para criação e ativação de clientes para posterior uso da empresa. O projeto conta com telas de cadastro que inserem informações no banco de dados para posterior exibição na tela de consulta dos clientes.
-<br><br><br>
+<br><br>
 
-### Tecnologias Utilizadas
+## Tecnologias Utilizadas &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="40" height="40"/> 
 
-<img src="https://github.com/igorsuzuki99/bertoti/blob/8ca25ab9891af0ebeea315388c33a7f40670bef4/Metodologia/swing.png" alt="swing" width="120" height="70">
-
-#### Java e Swing 
+### Java e Swing 
 A aplicação foi desenvolvida em Java, linguagem orientada a objetos, a qual juntamente com o framework Swing foi possível criar elementos visuais para utilização em um aplicativo desktop.
 O Swing fornece componentes gráficos, como botões, caixas de texto, tabelas, entre outros, que podem ser usados para construir interfaces de usuário interativas. Essa característica foi útil nesse projeto pois facilitou o desenvolvimento da parte visual da aplicação.
-<br><br><br>
+<br><br>
 
-<img src="https://github.com/igorsuzuki99/bertoti/blob/15e9c5d7351a579e2e31344f6e97498082a493ca/Metodologia/postgre.jpg" alt="postgres" width="100" height="100">
-
-#### PostgreSQL
+### PostgreSQL
 Para armazenamento das informações, foi utilizado o PostgreSQL, um banco relacional no qual guardamos os dados de usuários e clientes. Foi escolhido o Postgres por conta de sua interface dedutiva, e funcionalidades expostas de forma facilitada, que contribuíram na conexão, manuseio e gerenciamento do banco de dados.
 <br><br><br>
 
@@ -236,25 +227,20 @@ Para armazenamento das informações, foi utilizado o PostgreSQL, um banco relac
 
 ### Descrição do Projeto
 Desenvolvimento de um sistema no qual seja possível importar, pesquisar e gerar relatórios de dados meteorológicos. Além disso, alocação dos dados disponibilizados no site do Instituto Nacional de Meteorologia (INMET) para um banco de dados, para integrar com o sistema desenvolvido. Aplicação com interface web, que dispõe de um mecanismo de filtro no qual é possível filtrar os registros por datas, regiões, estados, localidades e tipo de dado, para posteriormente expor as informações em formato de gráficos e com a possibilidade de exportar um relatório com base na consulta realizada.
+<br><br>
 
-### Tecnologias Utilizadas
+## Tecnologias Utilizadas &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="40" height="40"/> &nbsp; <img src="https://asset.brandfetch.io/idFdo8ulhr/idg4l58CuH.svg" width="40" height="40"/> 
 
-<img src="https://github.com/igorsuzuki99/bertoti/blob/3bdf06bd363c4a90096a16e0491ab4f8ca127638/Metodologia/javaspring.jpg" alt="spring" width="120" height="90">
-
-#### Java e Spring 
+### Java e Spring 
 O back-end da aplicação foi desenvolvido predominantemente em Java, uma linguagem orientada a objetos, na qual juntamente com a tecnologia de Spring foi possível criar endpoints para interfaces web.
 O Spring é um framework que dispõe de recursos para criação de aplicações web escritas em Java e que traz mais agilidade para o desenvolvimento, visto que facilita as configurações iniciais do projeto com a injeção de dependências, as quais servem tanto para preparar o ambiente, quanto para otimizar a utilização de ferramentas e bibliotecas durante o desenvolvimento do projeto.
-<br><br><br>
+<br><br>
 
-<img src="https://github.com/igorsuzuki99/bertoti/blob/15e9c5d7351a579e2e31344f6e97498082a493ca/Metodologia/postgre.jpg" alt="postgres" width="100" height="100">
-
-#### PostgreSQL
+### PostgreSQL
 O banco de dados utilizado foi o PostgreSQL, um banco relacional no qual alocamos todos os dados meteorológicos, dados de estações e regiões. A escolha do Postgres se deu por conta de sua versatilidade, interface simplificada, e funcionalidades expostas de forma dedutiva, que facilitaram a usabilidade e gerenciamento do banco de dados. A sua alta eficiência e desempenho contribuiram para armazenar com tranquilidade os milhões de dados meteorológicos importados.
-<br><br><br>
+<br><br>
 
-<img src="https://github.com/igorsuzuki99/bertoti/blob/f15061508c05dbba8a39773679a2937d07c6a00c/Metodologia/chart%20(3).jfif" alt="spring" width="100" height="100">
-
-#### Chart.js
+### Chart.js
 Chart.js é uma biblioteca do JavaScript que possibilita a exposição de dados em forma de gráficos em páginas web, ela foi essencial para a interface do projeto. Com ela, pudemos mostrar de forma interativa os dados meteorológicos devidamente filtrados e escolhidos pelo usuário da aplicação. Nela também é possível personalizar as propriedades de design, o que possibilitou a exposição de gráficos personalizados de acordo com cada tipo de dado.
 <br><br><br>
 ### Contribuições Individuais
