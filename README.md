@@ -506,3 +506,15 @@ const gerarPDF = () => {
     </ul>
   <br>
 </details><br><br>
+
+## Projeto 5: 2º Semestre de 2023
+### Cloud Kitchen
+### Parceiro Acadêmico
+#### ORACLE
+
+<img src="https://github.com/igorsuzuki99/bertoti/blob/4eb1813907df5839051e2f270cdef8abbdbd2187/Projeto%20Trabalho%20de%20Gradua%C3%A7%C3%A3o%20em%20BD%20I/oracle.png" alt="oracle" width="150" height="90">
+
+### Descrição do Projeto
+Desenvolver um sistema web para gerência de um restaurante, com controle de estoque, funcionários, pratos e fornecedores, além de gráficos para facilitar a visualização dos insights relevantes para o dono do estabelecimento.
+<br><br>
+### Tecnologias Utilizadas
