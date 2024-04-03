@@ -360,29 +360,21 @@ Chart.js é uma biblioteca do JavaScript que possibilita a exposição de dados 
 Desenvolvimento de uma plataforma em que o usuário consulte itens instalados nas aeronaves. O sistema inclui a verificação e edição de itens instalados ou aplicáveis a determinados "chassis" conforme base de dados fornecida.
 <br><br><br>
 
-### Tecnologias Utilizadas
-
-<img src="https://github.com/igorsuzuki99/bertoti/blob/3bdf06bd363c4a90096a16e0491ab4f8ca127638/Metodologia/javaspring.jpg" alt="spring" width="120" height="90">
-
-#### Java e Spring 
+## Tecnologias Utilizadas &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40" height="40"/>
+          
+### Java e Spring 
 O back-end da aplicação foi desenvolvido em Java juntamente com o framework Spring, onde foi realizada a lógica das regras de negócio para determinação de quais itens eram considerados instalados, instaláveis ou não instaláveis de acordo com os chassis que fossem pesquisados. Através do Spring Data foi possível realizar consultas de forma mais eficiente no banco de dados para tratamento das lógicas e condições no back-end.
-<br><br><br>
+<br><br>
 
-<img src="https://github.com/igorsuzuki99/bertoti/blob/e018c7c6990ba7bf256cd85a755669c315326d8c/Metodologia/autonomousdatabase.png" alt="databaseoracle" width="120" height="80">
-
-#### Oracle Autonomous Database
+### Oracle Autonomous Database
 Para armazenamento dos dados, foi utilizado o Oracle Autonomous Database, um banco relacional em nuvem. Foi escolhido devido a possibilidade de consultar o banco através da internet, proporcionando uma melhor acessibilidade, praticidade e flexibilidade. Além do mais, também proporcionou maior segurança, tanto no controle de acesso ao banco, quanto na consistência dos dados, pois eram gerados backups automáticos que protegiam contra a perda de dados e facilitavam a recuperação em caso de falhas de operação.
-<br><br><br>
+<br><br>
 
-<img src="https://github.com/igorsuzuki99/bertoti/blob/cae68c8f73db8c544a69cf0f9965b5db786d8c41/Metodologia/vue.png" alt="vue" width="240" height="60">
-
-#### Vue.js
+### Vue.js
 O front-end do sistema foi desenvolvido em Vue.js, um framework JavaScript que conta com uma arquitetura estruturada por meio da criação de componentes reusáveis. Isso facilitou o desenvolvimento da plataforma, tendo em vista que certas partes visuais da interface tinham certa semelhança.
-<br><br><br>
+<br><br>
 
-<img src="https://github.com/igorsuzuki99/bertoti/blob/d6b27b079fb959effbfb4c9f25e4cc39be24f57d/Metodologia/aws.png" alt="aws" width="110" height="80">
-
-#### AWS
+### AWS
 Para hospedar a aplicação em um servidor, foi utilizada uma instância da AWS, que é uma das principais plataformas provedora de serviços de infraestrutura para aplicações online baseado em Cloud. Com ela foi possível hospedar a aplicação em nuvem, que permitiu o acesso ao sistema pelo endereço do servidor AWS, possibilitando o acesso por outros dispositivos, como celulares, tablets e outros dispositivos com acesso à internet.
 <br><br><br>
 
@@ -504,21 +496,16 @@ const gerarPDF = () => {
 Desenvolver um sistema web para gerência de um restaurante, com controle de estoque e fornecedores, visualização do desempenho de funcionários e pratos, além de gráficos para facilitar a visualização dos insights relevantes para o dono do estabelecimento.
 <br><br>
 
-### Tecnologias Utilizadas
-<img src="https://github.com/igorsuzuki99/bertoti/blob/3bdf06bd363c4a90096a16e0491ab4f8ca127638/Metodologia/javaspring.jpg" alt="spring" width="120" height="90">
+## Tecnologias Utilizadas &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" width="40" height="40"/>
 
-#### Java e Spring 
+### Java e Spring 
 O back-end da aplicação foi desenvolvido em Java juntamente com o framework Spring, onde foi realizada a lógica das regras de negócio para determinação de quais itens eram considerados instalados, instaláveis ou não instaláveis de acordo com os chassis que fossem pesquisados. Através do Spring Data foi possível realizar consultas de forma mais eficiente no banco de dados para tratamento das lógicas e condições no back-end.
-<br><br><br>
+<br><br>
 
-<img src="https://github.com/igorsuzuki99/bertoti/blob/e018c7c6990ba7bf256cd85a755669c315326d8c/Metodologia/autonomousdatabase.png" alt="databaseoracle" width="120" height="80">
-
-#### Oracle Autonomous Database
+### Oracle Autonomous Database
 Para armazenamento dos dados, foi utilizado o Oracle Autonomous Database, um banco relacional em nuvem. Foi escolhido devido a possibilidade de consultar o banco através da internet, proporcionando uma melhor acessibilidade, praticidade e flexibilidade. Além do mais, também proporcionou maior segurança, tanto no controle de acesso ao banco, quanto na consistência dos dados, pois eram gerados backups automáticos que protegiam contra a perda de dados e facilitavam a recuperação em caso de falhas de operação.
-<br><br><br>
+<br><br>
 
-<img src="https://github.com/igorsuzuki99/bertoti/blob/cae68c8f73db8c544a69cf0f9965b5db786d8c41/Metodologia/vue.png" alt="vue" width="240" height="60">
-
-#### Vue.js
+### Vue.js
 O front-end do sistema foi desenvolvido em Vue.js, um framework JavaScript que conta com uma arquitetura estruturada por meio da criação de componentes reusáveis. Isso facilitou o desenvolvimento da plataforma, tendo em vista que certas partes visuais da interface tinham certa semelhança.
 <br><br><br>
