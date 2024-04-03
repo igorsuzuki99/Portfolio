@@ -1,7 +1,9 @@
 # Igor Suzuki Kira
 
 ## Projeto 1: 2º Semestre de 2021
-#### Carcará Analysis
+<H3 align="center"> Carcará Analysis </H3>
+<H4 align="center"> Interno - FATEC </H4>
+
 ### Descrição do Projeto
 Desenvolver um projeto com o objetivo de analisar os dados oficiais da COVID-19 no Estado de São Paulo e entregá-los ao usuário de forma clara e contextualizada, através de visualizações gráficas ou não-gráficas.
 <br><br>
@@ -99,10 +101,12 @@ Para facilitar a visualização dos dados estatísticos, foi utilizado Plotly, u
 
 
 ## Projeto 2: 1º Semestre de 2022
-### Parceiro Acadêmico
-#### Dom Rock
 
+<H3 align="center">Parceiro Acadêmico</H3>
+
+<p align="center">
 <img src="https://github.com/igorsuzuki99/bertoti/blob/e945b5938ce30752e0848b95343dda228c0cff3f/Metodologia/domrock.png" alt="domrock" width="230" height="70">
+</p>
 
 ### Descrição do Projeto
 Desenvolvimento de uma plataforma para criação e ativação de clientes para posterior uso da empresa. O projeto conta com telas de cadastro que inserem informações no banco de dados para posterior exibição na tela de consulta dos clientes.
@@ -220,10 +224,11 @@ Para armazenamento das informações, foi utilizado o PostgreSQL, um banco relac
 
 
 ## Projeto 3: 2º Semestre de 2022
-### Parceiro Acadêmico
-#### IACIT
+<H3 align="center"> Parceiro Acadêmico </H3>
 
-<img src="https://github.com/igorsuzuki99/bertoti/blob/e476dee40e6b64e6f22ca2866eb7b950dc834383/Metodologia/download.png" alt="iacit" width="150" height="90">
+<p align="center">
+<img src="https://github.com/igorsuzuki99/Portfolio/blob/fa2a1c999b7e4fdbebf9a13c8cc4b927e5264772/iacit.jpg" alt="iacit" width="200" height="106">
+</p>
 
 ### Descrição do Projeto
 Desenvolvimento de um sistema no qual seja possível importar, pesquisar e gerar relatórios de dados meteorológicos. Além disso, alocação dos dados disponibilizados no site do Instituto Nacional de Meteorologia (INMET) para um banco de dados, para integrar com o sistema desenvolvido. Aplicação com interface web, que dispõe de um mecanismo de filtro no qual é possível filtrar os registros por datas, regiões, estados, localidades e tipo de dado, para posteriormente expor as informações em formato de gráficos e com a possibilidade de exportar um relatório com base na consulta realizada.
@@ -350,10 +355,12 @@ Chart.js é uma biblioteca do JavaScript que possibilita a exposição de dados 
 
 
 ## Projeto 4: 1º Semestre de 2023
-### Parceiro Acadêmico
-#### Embraer
 
-<img src="https://github.com/igorsuzuki99/bertoti/blob/792ed4d524602bbda8b81e40500d30b0a93fa57a/Metodologia/embraer.png" alt="embraer" width="300" height="70">
+<H3 align="center">Parceiro Acadêmico</H3>
+<br>
+<p align="center">
+<img src="https://github.com/igorsuzuki99/Portfolio/blob/fa2a1c999b7e4fdbebf9a13c8cc4b927e5264772/Embraer_logo.png" alt="embraer" width="350" height="64">
+</p>
 <br>
 
 ### Descrição do Projeto
@@ -487,10 +494,11 @@ const gerarPDF = () => {
 
 ## Projeto 5: 2º Semestre de 2023
 ### Cloud Kitchen
-### Parceiro Acadêmico
-#### ORACLE
+<H3 align="center"> Parceiro Acadêmico </H3>
 
-<img src="https://github.com/igorsuzuki99/bertoti/blob/4eb1813907df5839051e2f270cdef8abbdbd2187/Projeto%20Trabalho%20de%20Gradua%C3%A7%C3%A3o%20em%20BD%20I/oracle.png" alt="oracle" width="150" height="90">
+<p align="center">
+<img src="https://github.com/igorsuzuki99/bertoti/blob/4eb1813907df5839051e2f270cdef8abbdbd2187/Projeto%20Trabalho%20de%20Gradua%C3%A7%C3%A3o%20em%20BD%20I/oracle.png" alt="oracle" width="170" height="102">
+</p>
 
 ### Descrição do Projeto
 Desenvolver um sistema web para gerência de um restaurante, com controle de estoque e fornecedores, visualização do desempenho de funcionários e pratos, além de gráficos para facilitar a visualização dos insights relevantes para o dono do estabelecimento.
