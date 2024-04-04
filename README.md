@@ -1,4 +1,17 @@
-# Igor Suzuki Kira
+<H1 align="center"> Igor Suzuki Kira </H1>
+
+# Introdução
+Olá, sou Igor Suzuki, tenho 24 anos e sou aluno de Banco de Dados da FATEC de São José dos Campos. <br>
+<br>
+Meu conhecimento na programação iniciou-se quando cursei meu técnico de Automação Industrial e aprendi a programar arduíno em C. Após terminar o técnico, trabalhei como técnico de TI, me aproximando ainda mais da área da tecnologia. Logo, ingressei na FATEC para me especializar e dedicar-me à área de desenvolvimento, e obtive grandes ganhos de conhecimento, hard e soft skills. <br>
+Atualmente tenho maior domínio de habilidades em Java e Banco de Dados Relacional, tecnologias das quais utilizo no meu trabalho atual como desenvolvedor back-end.
+
+
+ <a href="https://www.linkedin.com/in/igor-suzuki/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+ <a href="mailto:igorsuzuki.dev@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+ <br><br>
+ 
+# Projetos desenvolvidos
 
 ## Projeto 1: 2º Semestre de 2021
 <H3 align="center"> Carcará Analysis </H3>
@@ -492,7 +505,7 @@ const gerarPDF = () => {
   <br>
 </details><br><br>
 
-## Projeto 5: 2º Semestre de 2023
+## Projeto 5: 2º Semestre de 2023 (Em processo de documentação)
 ### Cloud Kitchen
 <H3 align="center"> Parceiro Acadêmico </H3>
 
@@ -507,13 +520,13 @@ Desenvolver um sistema web para gerência de um restaurante, com controle de est
 ## Tecnologias Utilizadas &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" width="40" height="40"/>
 
 ### Java e Spring 
-O back-end da aplicação foi desenvolvido em Java juntamente com o framework Spring, onde foi realizada a lógica das regras de negócio para determinação de quais itens eram considerados instalados, instaláveis ou não instaláveis de acordo com os chassis que fossem pesquisados. Através do Spring Data foi possível realizar consultas de forma mais eficiente no banco de dados para tratamento das lógicas e condições no back-end.
+
 <br><br>
 
 ### Oracle Autonomous Database
-Para armazenamento dos dados, foi utilizado o Oracle Autonomous Database, um banco relacional em nuvem. Foi escolhido devido a possibilidade de consultar o banco através da internet, proporcionando uma melhor acessibilidade, praticidade e flexibilidade. Além do mais, também proporcionou maior segurança, tanto no controle de acesso ao banco, quanto na consistência dos dados, pois eram gerados backups automáticos que protegiam contra a perda de dados e facilitavam a recuperação em caso de falhas de operação.
+
 <br><br>
 
 ### Vue.js
-O front-end do sistema foi desenvolvido em Vue.js, um framework JavaScript que conta com uma arquitetura estruturada por meio da criação de componentes reusáveis. Isso facilitou o desenvolvimento da plataforma, tendo em vista que certas partes visuais da interface tinham certa semelhança.
+
 <br><br><br>
