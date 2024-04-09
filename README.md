@@ -90,6 +90,9 @@ Para facilitar a visualização dos dados estatísticos, foi utilizado Plotly, u
 </details> <br>
 
 ### Aprendizados Efetivos
+
+#### HARD SKILLS
+
 <details>
   <summary>Linguagem Python</summary>
   <br>
@@ -110,7 +113,16 @@ Para facilitar a visualização dos dados estatísticos, foi utilizado Plotly, u
       <li>Manipulação e personalização de dados estatísticos</li>
     </ul>
   <br>
-</details><br><br>
+</details><br>
+
+#### SOFT SKILLS 
+
+<ul>
+ <li>Comunicação eficaz: Com as aulas em sua totalidade no regime online, precisei evoluir minha comunicação com os integrantes do grupo para melhor o entendimento e compreensão entre a equipe. </li>
+ <br>
+ <li>Aprendizado contínuo: A partir da necessidade do aprendizado sobre desenvolvimento de software, sendo o meu primeiro semestre, precisei estudar bastante para entender a base necessária para programar em Python. </li>
+</ul>
+<br><br>
 
 
 
@@ -203,6 +215,9 @@ Para armazenamento das informações, foi utilizado o PostgreSQL, um banco relac
 
 
 ### Aprendizados Efetivos
+
+#### HARD SKILLS
+
 <details>
   <summary>Linguagem Java</summary>
   <br>
@@ -232,7 +247,15 @@ Para armazenamento das informações, foi utilizado o PostgreSQL, um banco relac
       <li>Desenvolvimento de aplicação desktop</li>
     </ul>
   <br>
-</details><br><br>
+</details><br>
+
+#### SOFT SKILLS
+
+<ul>
+      <li>Criatividade: Com o primeiro contato com uma empresa real, precisei de criatividade para conseguir desenvolver uma solução que cumprisse com os requisitos impostos.</li><br>
+      <li>Aprendizado contínuo: A partir do requisito de desenvolver em Java e ter o primeiro contato com a linguagem no semestre em questão, precisei estudar para aprender sobre os princípios de orientação à objetos.</li>
+</ul>
+<br><br>
 
 
 
@@ -331,6 +354,9 @@ Chart.js é uma biblioteca do JavaScript que possibilita a exposição de dados 
 
 
 ### Aprendizados Efetivos
+
+#### HARD SKILLS
+
 <details>
   <summary>Spring Framework</summary>
   <br>
@@ -365,7 +391,15 @@ Chart.js é uma biblioteca do JavaScript que possibilita a exposição de dados 
       <li>Consumo de recursos de bootstrap</li>
     </ul>
   <br>
-</details><br><br>
+</details><br>
+
+#### SOFT SKILLS
+
+<ul>
+      <li>Resolução de problemas: </li>
+      <li>Manipulação de variáveis com JavaScript</li>
+</ul>
+<br><br>
 
 
 ## Projeto 4: 1º Semestre de 2023
