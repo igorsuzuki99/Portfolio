@@ -123,6 +123,10 @@ Para facilitar a visualização dos dados estatísticos, foi utilizado Plotly, u
  <br>
  <li>Aprendizado contínuo: A partir da necessidade do aprendizado sobre desenvolvimento de software, sendo o meu primeiro semestre, precisei estudar bastante para entender a base necessária para programar em Python. </li>
 </ul>
+<br>
+
+[Projeto no GitHub](https://github.com/igorsuzuki99/Carcara)
+
 <br><br>
 
 
@@ -257,6 +261,10 @@ Para armazenamento das informações, foi utilizado o PostgreSQL, um banco relac
       <li>Criatividade: Com o primeiro contato com uma empresa real, precisei de criatividade para conseguir desenvolver uma solução que cumprisse com os requisitos impostos.</li><br>
       <li>Aprendizado contínuo: A partir do requisito de desenvolver em Java e ter o primeiro contato com a linguagem no semestre em questão, precisei estudar para aprender sobre os princípios de orientação à objetos.</li>
 </ul>
+<br>
+
+[Projeto no GitHub](https://github.com/igorsuzuki99/Dom-Rock)
+
 <br><br>
 
 
@@ -403,6 +411,10 @@ Chart.js é uma biblioteca do JavaScript que possibilita a exposição de dados 
       <li>Flexibilidade: Como desenvolvi no front-end e também no back-end desse projeto, precisei desenvolver minha flexibilidade para conseguir conciliar o desenvolvimento em ambas as stacks.</li><br>
       <li>Autoconhecimento: Neste projeto necessitei me conhecer melhor, reconhecer meus limites e entender que existem coisas ao meu alcance, e coisas que não dependem somente de mim, entender que a pressa não adianta de nada se não houver qualidade no que se está fazendo. Me conhecer melhor foi um aprendizado essencial para a minha vida.</li>
 </ul>
+<br>
+
+[Projeto no GitHub](https://github.com/igorsuzuki99/IACIT)
+
 <br><br>
 
 
@@ -554,6 +566,10 @@ const gerarPDF = () => {
       <li>Adaptabilidade: A partir da decisão de hospedar o sistema em nuvem e um dos requisitos ser a utilização do framework Vue.js, precisei me adaptar com novos ambientes e tecnologias com as quais nunca tive contato, o próprio Vue, e o sistema operacional Linux.</li><br>
       <li>Trabalho em equipe: Nesse projeto foi essencial a harmonia entre a equipe, pois com as novas tecnologias foi necessário que todos aprendessem algo novo, de forma a conseguir repassar para os colegas de que forma seria implementado no projeto. Através da boa comunicação e trabalho em equipe conseguimos concilicar o desenvolvimento de maneira mais eficiente.</li>
 </ul>
+<br>
+
+[Projeto no GitHub](https://github.com/igorsuzuki99/Embraer)
+
 <br><br>
 
 ## Projeto 5: 2º Semestre de 2023 (Em processo de documentação)
