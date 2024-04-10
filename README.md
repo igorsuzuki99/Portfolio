@@ -521,7 +521,12 @@ const gerarPDF = () => {
   
   <p><i>No trecho de código acima foi utilizada a biblioteca do pdfMake, biblioteca para gerar e exportar documentos PDF. No corpo do dcoumento foram atribuídas as informações que serão expostas: o item, e se ele está instalado. E no final é chamado o método de createPdf para exportar o documento.</i></p>
   <br>
-</details><br>
+</details>
+<details>
+  <summary><b>Hospedagem da aplicação em nuvem</b></summary>
+  <br>
+  <p>Realizei a instanciação e configuração de um servidor em nuvem na AWS para disponibilizar a aplicação de forma pública. Configurei as aplicações back-end e front-end para realizarem a comunicação através do servidor, habilitei as portas necessárias e configurei o ambiente para rodar ambas as aplicações publicamente.</p>
+</details> <br>
 
 
 ### Aprendizados Efetivos
@@ -558,7 +563,8 @@ const gerarPDF = () => {
       <li>Gerenciamento de recursos</li>
     </ul>
   <br>
-</details><br>
+</details> 
+<br>
 
 #### SOFT SKILLS
 <ul>
