@@ -6,10 +6,13 @@ Olá, sou Igor Suzuki, tenho 24 anos e sou aluno de Banco de Dados da FATEC de S
 <br>
 Meu conhecimento na programação iniciou-se quando cursei meu técnico de Automação Industrial e aprendi a programar arduíno em C. Após terminar o curso, trabalhei como técnico de TI, me aproximando ainda mais da área da tecnologia. Logo, ingressei na FATEC para me especializar e dedicar-me à área de desenvolvimento, e obtive grandes ganhos de conhecimento, hard e soft skills. <br>
 Atualmente tenho maior domínio de habilidades em Java e Banco de Dados Relacional, tecnologias das quais utilizo no meu trabalho atual como desenvolvedor back-end.
-
+<div align = center>
 <img src="https://github.com/igorsuzuki99/Portfolio/blob/982f68b68765893dc2b732b8c773252340fbb3d0/IMG_4773%20(1).jpg" alt="eu" width="203" height="213">
+</div>
+<div align = center>
  <a href="https://www.linkedin.com/in/igor-suzuki/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
  <a href="mailto:igorsuzuki.dev@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+</div>
  <br><br>
  
 # Projetos desenvolvidos
