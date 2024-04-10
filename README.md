@@ -19,7 +19,8 @@ Atualmente tenho maior domínio de habilidades em Java e Banco de Dados Relacion
 <H4 align="center"> Interno - FATEC </H4>
 
 ### Descrição do Projeto
-Desenvolver um projeto com o objetivo de analisar os dados oficiais da COVID-19 no Estado de São Paulo e entregá-los ao usuário de forma clara e contextualizada, através de visualizações gráficas ou não-gráficas.
+Desenvolver um projeto com o objetivo de analisar os dados oficiais da COVID-19 no Estado de São Paulo e entregá-los ao usuário de forma clara e contextualizada, através de visualizações gráficas ou não-gráficas.<br>
+A solução foi um sistema web em Python através do Flask, que a partir dos CSVs disponilizados pelo governo contendo dados estatísticos da COVID, mostrava para o usuário gráficos de diferentes tipos, como barras e setores, que continham estatísticas sobre o vírus e também demais insights relevantes que eram calculados através dos dados já existentes.
 <br><br>
 
 ## Tecnologias Utilizadas &nbsp;&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/plotly/plotly-original.svg" width="40" height="40"/>
@@ -135,7 +136,8 @@ Para facilitar a visualização dos dados estatísticos, foi utilizado Plotly, u
 </p>
 
 ### Descrição do Projeto
-Desenvolvimento de uma plataforma para criação e ativação de clientes para posterior uso da empresa. O projeto conta com telas de cadastro que inserem informações no banco de dados para posterior exibição na tela de consulta dos clientes.
+Desenvolvimento de uma plataforma para criação e ativação de clientes para posterior uso da empresa. O projeto devia contar com telas de cadastro que inserem informações no banco de dados para posterior exibição na tela de consulta dos clientes.<br>
+A solução foi um aplicativo desktop em Java através de interface GUI, na qual eram dispostos componentes swing para formar etapas de um cadastro, os dados preenchidos nesses componentes eram salvos no banco de dados conforme o usuário avançava nas etapas do formulário.
 <br><br>
 
 ## Tecnologias Utilizadas &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="40" height="40"/> 
@@ -268,7 +270,8 @@ Para armazenamento das informações, foi utilizado o PostgreSQL, um banco relac
 </p>
 
 ### Descrição do Projeto
-Desenvolvimento de um sistema no qual seja possível importar, pesquisar e gerar relatórios de dados meteorológicos. Além disso, alocação dos dados disponibilizados no site do Instituto Nacional de Meteorologia (INMET) para um banco de dados, para integrar com o sistema desenvolvido. Aplicação com interface web, que dispõe de um mecanismo de filtro no qual é possível filtrar os registros por datas, regiões, estados, localidades e tipo de dado, para posteriormente expor as informações em formato de gráficos e com a possibilidade de exportar um relatório com base na consulta realizada.
+Desenvolvimento de um sistema no qual seja possível importar, pesquisar e gerar relatórios de dados meteorológicos. Além disso, alocação dos dados disponibilizados no site do Instituto Nacional de Meteorologia (INMET) para um banco de dados, para integrar com o sistema desenvolvido.<br>
+A solução foi uma aplicação com interface web, que dispõe de um mecanismo de filtro no qual é possível filtrar os registros por datas, regiões, estados, localidades e tipo de dado, para posteriormente expor as informações em formato de gráficos e com a possibilidade de exportar um relatório com base na consulta realizada.
 <br><br>
 
 ## Tecnologias Utilizadas &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="40" height="40"/> &nbsp; <img src="https://asset.brandfetch.io/idFdo8ulhr/idg4l58CuH.svg" width="40" height="40"/> 
@@ -396,8 +399,9 @@ Chart.js é uma biblioteca do JavaScript que possibilita a exposição de dados 
 #### SOFT SKILLS
 
 <ul>
-      <li>Resolução de problemas: </li>
-      <li>Manipulação de variáveis com JavaScript</li>
+      <li>Resolução de problemas: A partir da proposta de solução do projeto, necessitei de habilidades na resolução de problemas para contornar obstáculos durante o desenvolvimento.</li><br>
+      <li>Flexibilidade: Como desenvolvi no front-end e também no back-end desse projeto, precisei desenvolver minha flexibilidade para conseguir conciliar o desenvolvimento em ambas as stacks.</li><br>
+      <li>Autoconhecimento: Neste projeto necessitei me conhecer melhor, reconhecer meus limites e entender que existem coisas ao meu alcance, e coisas que não dependem somente de mim, entender que a pressa não adianta de nada se não houver qualidade no que se está fazendo. Me conhecer melhor foi um aprendizado essencial para a minha vida.</li>
 </ul>
 <br><br>
 
@@ -412,7 +416,8 @@ Chart.js é uma biblioteca do JavaScript que possibilita a exposição de dados 
 <br>
 
 ### Descrição do Projeto
-Desenvolvimento de uma plataforma em que o usuário consulte itens instalados nas aeronaves. O sistema inclui a verificação e edição de itens instalados ou aplicáveis a determinados "chassis" conforme base de dados fornecida.
+Desenvolvimento de uma plataforma em que o usuário consulte itens instalados nas aeronaves. O sistema inclui a verificação e edição de itens instalados ou aplicáveis a determinados "chassis" conforme base de dados fornecida.<br>
+A solução foi um sistema que possuía todas as lógicas de formação de todos os itens armazenadas no banco de dados, dessa forma, a partir do chassi consultado, a lógica de composição dos itens era consultada no banco e os itens que eram compatíveis com o chassi em questão eram mostrados na tela para o usuário. Para melhor usabilidade do sistema, foi utilizada hospedagem em nuvem, que permitiu o acesso do sistema tanto pelo computador, como pelo celular ou qualquer outro dispositivo com acesso ao navegador com internet.
 <br><br><br>
 
 ## Tecnologias Utilizadas &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40" height="40"/>
@@ -508,6 +513,9 @@ const gerarPDF = () => {
 
 
 ### Aprendizados Efetivos
+
+#### HARD SKILLS
+
 <details>
   <summary>Spring Framework</summary>
   <br>
@@ -538,7 +546,15 @@ const gerarPDF = () => {
       <li>Gerenciamento de recursos</li>
     </ul>
   <br>
-</details><br><br>
+</details><br>
+
+#### SOFT SKILLS
+<ul>
+      <li>Pensamento crítico: Com a complexidade do projeto, necessitei desenvolver meu pensamento crítico para saber qual melhor caminho seguir e priorizar o que era mais importante para desenvolver uma solução para a regra de negócio mais complexa do projeto.</li><br>
+      <li>Adaptabilidade: A partir da decisão de hospedar o sistema em nuvem e um dos requisitos ser a utilização do framework Vue.js, precisei me adaptar com novos ambientes e tecnologias com as quais nunca tive contato, o próprio Vue, e o sistema operacional Linux.</li><br>
+      <li>Trabalho em equipe: Nesse projeto foi essencial a harmonia entre a equipe, pois com as novas tecnologias foi necessário que todos aprendessem algo novo, de forma a conseguir repassar para os colegas de que forma seria implementado no projeto. Através da boa comunicação e trabalho em equipe conseguimos concilicar o desenvolvimento de maneira mais eficiente.</li>
+</ul>
+<br><br>
 
 ## Projeto 5: 2º Semestre de 2023 (Em processo de documentação)
 ### Cloud Kitchen
