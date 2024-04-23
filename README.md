@@ -590,13 +590,14 @@ const gerarPDF = () => {
 </p>
 
 ### Descrição do Projeto
-Desenvolver um sistema web para gerência de um restaurante, com controle de estoque e fornecedores, visualização do desempenho de funcionários e pratos, além de gráficos para facilitar a visualização dos insights relevantes para o dono do estabelecimento.
+Desenvolver um sistema web para gerência de um restaurante, com controle de estoque e fornecedores, visualização do desempenho de funcionários e pratos, além de gráficos para facilitar a visualização dos insights relevantes para o dono do estabelecimento. <br>
+A solução foi uma plataforma web, separada em diferentes seções, contendo insights em formas de gráficos, tabelas e cards para visualização de informações sobre estoque, vendas, pratos e funcionários.
 <br><br>
 
 ## Tecnologias Utilizadas &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" width="40" height="40"/>
 
 ### Java e Spring 
-
+O back-end foi desenvolvido em Java com framework Spring para disponibilizar uma API com arquitetura REST contendo o mapeamento das rotas.
 <br><br>
 
 ### Oracle Autonomous Database
