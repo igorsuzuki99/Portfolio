@@ -606,6 +606,62 @@ O back-end foi desenvolvido em Java com framework Spring para disponibilizar uma
 
 ### Vue.js
 
+<br><br>
+
+### Contribuições Individuais
+<details>
+  <summary><b>Cadastro de alertas de estoque</b></summary>
+  <br>
+  <p>Realizei o consumo da API do backend para cadastrar alertas para avisos de estoque baixo ou validade próxima.</p>
+  
+  ```javascript
+  
+  <script>
+import axios from 'axios';
+
+export default {
+    name: 'alerta',
+    data() {
+        return {
+            formData: {
+                nomeAlerta: "",
+                descricao: "",
+                entidade: "",
+                condicaoDisparo: "",
+                valorParametro: "",
+                acao: "",
+                destinatarios: ""
+            },
+        };
+    },
+    methods: {
+        submitForm() {
+            const jsonData = JSON.stringify(this.formData);
+            axios.post('http://localhost:8081/alerta', jsonData, {
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+                .then(response => {
+                    console.log('Resposta do servidor:', response.data);
+                    this.formSubmitted = true;
+                    alert("Alerta criado");
+                })
+                .catch(error => {
+                    console.error('Erro na solicitação:', error);
+                    alert("Erro ao criar alerta");
+                });
+        }
+    }
+};
+</script>
+  
+  ```
+  
+  <p><i>No exemplo de código acima, é enviado um conteúdo de formulário em formato de JSON em uma requisição HTTP do tipo POST para o endpoint da API que cadastra alertas no banco de dados. E ápós isso é retornado se o cadastro do alerta obteve sucesso ou não.</i></p>
+  <br>
+</details>
+
 
 [Projeto no GitHub](https://github.com/CarcaraTec/Cloud-Kitchen-Oracle)
 <br><br><br>
