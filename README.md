@@ -606,4 +606,6 @@ O back-end foi desenvolvido em Java com framework Spring para disponibilizar uma
 
 ### Vue.js
 
+
+[Projeto no GitHub](https://github.com/CarcaraTec/Cloud-Kitchen-Oracle)
 <br><br><br>
