@@ -662,6 +662,56 @@ export default {
   <br>
 </details>
 
+<details>
+  <summary><b>Exibição de quadro de funcionários</b></summary>
+  <br>
+  <p>Realizei a exibição dos funcionários escalados em determinado dia conforme dados consumidos da API do backend.</p>
+  
+  ```javascript
+  
+  <template>
+  <div>
+    <p class="funcio">{{ title }}</p>
+    <table class="tabela">
+      <thead>
+        <tr>
+          <th>COLABORADORES ESCALADOS</th>
+          <th>FUNÇÃO</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="(funcao, nome) in funcionarios" :key="nome">
+          <td>{{ nome }}</td>
+          <td>{{ funcao }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</template>
+
+<script>
+import { ref, onMounted } from 'vue';
+import axios from 'axios';
+
+export default {
+  ...
+  methods: {
+    async fetchData(date) {
+        const formattedDate = this.formatDate(this.date);
+      try {
+        const response = await axios.get(`http://localhost:8081/diario/${formattedDate}`);
+        this.funcionarios = response.data.funcionarios || {};
+      } catch (error) {
+        console.error('Erro ao buscar dados:', error);
+      }
+    }
+  ...
+  ```
+  
+  <p><i>No exemplo de código acima, uma tabela com nome e função dos funcionários é montada com um v-for de uma lista, que contém dados de resposta obtidos de uma requisição HTTP, do tipo GET, para um endpoint de obter os funcionários escalados em um determinado dia, que é passado como parâmetro.</i></p>
+  <br>
+</details>
+
 
 [Projeto no GitHub](https://github.com/CarcaraTec/Cloud-Kitchen-Oracle)
 <br><br><br>
