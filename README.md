@@ -712,6 +712,90 @@ export default {
   <br>
 </details>
 
+<details>
+  <summary><b>Exibição de quadro de funcionários</b></summary>
+  <br>
+  <p>Realizei a exibição dos funcionários escalados em determinado dia conforme dados consumidos da API do backend.</p>
+  
+  ```javascript
+  
+  <template>
+  <div class="container">
+    <div class="component-title2">Mais Vendidos</div>
+    <div class="row">
+      <div class="column">
+        <P class="desc-grafico">Principais mais vendidos</P>
+        <bar-chart :data="maisVendidos.principal"></bar-chart>
+      </div>
+      <div class="column">
+        <P class="desc-grafico">Sobremesas mais vendidas</P>
+        <bar-chart :data="maisVendidos.sobremesa"></bar-chart>
+      </div>
+      <div class="column">
+        <P class="desc-grafico">Bebidas mais vendidas</P>
+        <bar-chart :data="maisVendidos.bebida"></bar-chart>
+      </div>
+    </div>
+
+    <div class="component-title3">Menos Vendidos</div>
+    <div class="row">
+      <div class="column">
+        <P class="desc-grafico">Principais menos vendidos</P>
+        <bar-chart :data="menosVendidos.principal"></bar-chart>
+      </div>
+      <div class="column">
+        <P class="desc-grafico">Sobremesas menos vendidas</P>
+        <bar-chart :data="menosVendidos.sobremesa"></bar-chart>
+      </div>
+      <div class="column">
+        <P class="desc-grafico">Bebidas menos vendidas</P>
+        <bar-chart :data="menosVendidos.bebida"></bar-chart>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import axios from 'axios';
+import BarChart from './BarChart.vue';
+
+export default {
+  name: 'pratos',
+  components: {
+    'bar-chart': BarChart,
+  },
+  data() {
+    return {
+      maisVendidos: { principal: [], sobremesa: [], bebida: [] },
+      menosVendidos: { principal: [], sobremesa: [], bebida: [] }
+    };
+  },
+  mounted() {
+    this.fetchData();
+  },
+  methods: {
+    fetchData() {
+      axios.get('http://localhost:8081/pratos/mais-vendidos')
+        .then(response => {
+          this.maisVendidos = response.data;
+        })
+        .catch(error => {
+          console.error('Erro ao buscar pratos mais vendidos: ', error);
+        });
+
+      axios.get('http://localhost:8081/pratos/menos-vendidos')
+        .then(response => {
+          this.menosVendidos = response.data;
+        })
+        .catch(error => {
+          console.error('Erro ao buscar pratos menos vendidos: ', error);
+        });
+    }
+  ```
+  
+  <p><i>No exemplo de código acima, uma tabela com nome e função dos funcionários é montada com um v-for de uma lista, que contém dados de resposta obtidos de uma requisição HTTP, do tipo GET, para um endpoint de obter os funcionários escalados em um determinado dia, que é passado como parâmetro.</i></p>
+  <br>
+</details>
 
 [Projeto no GitHub](https://github.com/CarcaraTec/Cloud-Kitchen-Oracle)
 <br><br><br>
