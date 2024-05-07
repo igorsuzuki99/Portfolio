@@ -826,7 +826,7 @@ export default {
 #### SOFT SKILLS
 <ul>
       <li>Gestão de tempo: Sendo o responsável pelo frontend da aplicação, precisei gerir bem meu próprio tempo pois as telas dependiam exclusivamente de mim, então uma boa gestão de tempo foi essencial para não gerar atrasos nem pendências nas entregas.</li><br>
-      <li>Adaptabilidade: A partir da decisão de hospedar o sistema em nuvem e um dos requisitos ser a utilização do framework Vue.js, precisei me adaptar com novos ambientes e tecnologias com as quais nunca tive contato, o próprio Vue, e o sistema operacional Linux.</li><br>
+      <li>Criatividade: Para desenvolver telas exclusivas do zero, necessitei de criatividade para criar o layout dos painéis e decidir o que seria mostrado, e onde seria exibido.</li><br>
       <li>Trabalho em equipe: Nesse projeto foi essencial a harmonia entre a equipe, pois com as novas tecnologias foi necessário que todos aprendessem algo novo, de forma a conseguir repassar para os colegas de que forma seria implementado no projeto. Através da boa comunicação e trabalho em equipe conseguimos concilicar o desenvolvimento de maneira mais eficiente.</li>
 </ul>
 <br>
