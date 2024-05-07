@@ -713,9 +713,9 @@ export default {
 </details>
 
 <details>
-  <summary><b>Exibição de quadro de funcionários</b></summary>
+  <summary><b>Plotagem de gráficos de desempenho de pratos</b></summary>
   <br>
-  <p>Realizei a exibição dos funcionários escalados em determinado dia conforme dados consumidos da API do backend.</p>
+  <p>Realizei a plotagem de gráficos com os pratos, sobremesas e bebidas mais e menos vendidos de acordo com os dados do banco de dados.</p>
   
   ```javascript
   
@@ -793,7 +793,7 @@ export default {
     }
   ```
   
-  <p><i>No exemplo de código acima, uma tabela com nome e função dos funcionários é montada com um v-for de uma lista, que contém dados de resposta obtidos de uma requisição HTTP, do tipo GET, para um endpoint de obter os funcionários escalados em um determinado dia, que é passado como parâmetro.</i></p>
+  <p><i>No exemplo de código acima, são plotados 6 gráficos de barra, com os pratos principais, sobremesas e bebidas mais e menos vendidos. Cada gráfico recebia seus dados de acordo com as listas resgatadas do banco de dados, em endpoints do tipo GET para consultar os pratos com melhores e piores desempenhos.</i></p>
   <br>
 </details>
 
