@@ -581,7 +581,7 @@ const gerarPDF = () => {
 
 <br><br>
 
-## Projeto 5: 2º Semestre de 2023 (Em processo de documentação)
+## Projeto 5: 2º Semestre de 2023
 ### Cloud Kitchen
 <H3 align="center"> Parceiro Acadêmico </H3>
 
@@ -825,7 +825,7 @@ export default {
 
 #### SOFT SKILLS
 <ul>
-      <li>Pensamento crítico: Com a complexidade do projeto, necessitei desenvolver meu pensamento crítico para saber qual melhor caminho seguir e priorizar o que era mais importante para desenvolver uma solução para a regra de negócio mais complexa do projeto.</li><br>
+      <li>Gestão de tempo: Sendo o responsável pelo frontend da aplicação, precisei gerir bem meu próprio tempo pois as telas dependiam exclusivamente de mim, então uma boa gestão de tempo foi essencial para não gerar atrasos nem pendências nas entregas.</li><br>
       <li>Adaptabilidade: A partir da decisão de hospedar o sistema em nuvem e um dos requisitos ser a utilização do framework Vue.js, precisei me adaptar com novos ambientes e tecnologias com as quais nunca tive contato, o próprio Vue, e o sistema operacional Linux.</li><br>
       <li>Trabalho em equipe: Nesse projeto foi essencial a harmonia entre a equipe, pois com as novas tecnologias foi necessário que todos aprendessem algo novo, de forma a conseguir repassar para os colegas de que forma seria implementado no projeto. Através da boa comunicação e trabalho em equipe conseguimos concilicar o desenvolvimento de maneira mais eficiente.</li>
 </ul>
