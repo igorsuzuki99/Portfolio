@@ -597,15 +597,15 @@ A solução foi uma plataforma web, separada em diferentes seções, contendo in
 ## Tecnologias Utilizadas &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" width="40" height="40"/>
 
 ### Java e Spring 
-O back-end foi desenvolvido em Java com framework Spring para disponibilizar uma API com arquitetura REST contendo o mapeamento das rotas.
+O back-end foi desenvolvido em Java com framework Spring para disponibilizar uma API com arquitetura REST contendo o mapeamento das rotas. Foram desenvolvidos endpoints CRUD que interagem com dados de pratos, funcionários e estoque para consumo do frontend.
 <br><br>
 
 ### Oracle Autonomous Database
-
+O banco de dados foi alocado em nuvem com o Autonomous Database da Oracle, que permitiu o consumo dos dados de qualquer ambiente com internet. Seu acesso restrito por wallet e backups automáticos foi um fator relevante para a escolha desse banco de dados.
 <br><br>
 
 ### Vue.js
-
+Com o framework do Vue.js foi possível componentizar os elementos do frontend para reutilizá-los em locais diferentes. Suas propriedades de condicional com v-if e looping com v-for proporcionaram uma maior facilidade na exibição dos dados utilizando condições e iterações em componentes.
 <br><br>
 
 ### Contribuições Individuais
@@ -795,7 +795,41 @@ export default {
   
   <p><i>No exemplo de código acima, são plotados 6 gráficos de barra, com os pratos principais, sobremesas e bebidas mais e menos vendidos. Cada gráfico recebia seus dados de acordo com as listas resgatadas do banco de dados, em endpoints do tipo GET para consultar os pratos com melhores e piores desempenhos.</i></p>
   <br>
+</details><br>
+
+### Aprendizados Efetivos
+
+#### HARD SKILLS
+
+<details>
+  <summary>Vue.js</summary>
+  <br>
+    <ul>
+      <li>Condicionais com v-if</li>
+      <li>Looping com v-for</li>
+      <li>Desenvolvimento com componentes</li>
+    </ul>
+  <br>
 </details>
+<details>
+  <summary>DevOps</summary>
+  <br>
+    <ul>
+      <li>Gitflow Workflow</li>
+      <li>Deploy com Github Actions</li>
+      <li>Testes automatizados</li>
+    </ul>
+  <br>
+</details>
+<br>
+
+#### SOFT SKILLS
+<ul>
+      <li>Pensamento crítico: Com a complexidade do projeto, necessitei desenvolver meu pensamento crítico para saber qual melhor caminho seguir e priorizar o que era mais importante para desenvolver uma solução para a regra de negócio mais complexa do projeto.</li><br>
+      <li>Adaptabilidade: A partir da decisão de hospedar o sistema em nuvem e um dos requisitos ser a utilização do framework Vue.js, precisei me adaptar com novos ambientes e tecnologias com as quais nunca tive contato, o próprio Vue, e o sistema operacional Linux.</li><br>
+      <li>Trabalho em equipe: Nesse projeto foi essencial a harmonia entre a equipe, pois com as novas tecnologias foi necessário que todos aprendessem algo novo, de forma a conseguir repassar para os colegas de que forma seria implementado no projeto. Através da boa comunicação e trabalho em equipe conseguimos concilicar o desenvolvimento de maneira mais eficiente.</li>
+</ul>
+<br>
 
 [Projeto no GitHub](https://github.com/CarcaraTec/Cloud-Kitchen-Oracle)
 <br><br><br>
