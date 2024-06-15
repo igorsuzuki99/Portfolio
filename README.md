@@ -18,6 +18,8 @@ Atualmente tenho maior domínio de habilidades em Java e Banco de Dados Relacion
 # Projetos desenvolvidos
 
 ## Projeto 1: 2º Semestre de 2021
+### Visualizador de dados COVID-19
+
 <H3 align="center"> Carcará Analysis </H3>
 <H4 align="center"> Interno - FATEC </H4>
 
@@ -135,6 +137,7 @@ Para facilitar a visualização dos dados estatísticos, foi utilizado Plotly, u
 
 
 ## Projeto 2: 1º Semestre de 2022
+### Sistema de cadastro de clientes
 
 <H3 align="center">Parceiro Acadêmico</H3>
 
@@ -274,6 +277,8 @@ Para armazenamento das informações, foi utilizado o PostgreSQL, um banco relac
 
 
 ## Projeto 3: 2º Semestre de 2022
+### Visualizador de dados meteorológicos
+
 <H3 align="center"> Parceiro Acadêmico </H3>
 
 <p align="center">
@@ -422,6 +427,7 @@ Chart.js é uma biblioteca do JavaScript que possibilita a exposição de dados 
 
 
 ## Projeto 4: 1º Semestre de 2023
+### Aircraft Configuration Control: Gerenciador de componentes instalados em aeronaves
 
 <H3 align="center">Parceiro Acadêmico</H3>
 <br>
@@ -582,6 +588,260 @@ const gerarPDF = () => {
 <br><br>
 
 ## Projeto 5: 2º Semestre de 2023
+### Cloud Kitchen: Gerenciador de restaurante
+<H3 align="center"> Parceiro Acadêmico </H3>
+
+<p align="center">
+<img src="https://github.com/igorsuzuki99/bertoti/blob/4eb1813907df5839051e2f270cdef8abbdbd2187/Projeto%20Trabalho%20de%20Gradua%C3%A7%C3%A3o%20em%20BD%20I/oracle.png" alt="oracle" width="170" height="102">
+</p>
+
+### Descrição do Projeto
+Desenvolver um sistema web para gerência de um restaurante, com controle de estoque e fornecedores, visualização do desempenho de funcionários e pratos, além de gráficos para facilitar a visualização dos insights relevantes para o dono do estabelecimento. <br>
+A solução foi uma plataforma web, separada em diferentes seções, contendo insights em formas de gráficos, tabelas e cards para visualização de informações sobre estoque, vendas, pratos e funcionários.
+<br><br>
+
+## Tecnologias Utilizadas &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" width="40" height="40"/>
+
+### Java e Spring 
+O back-end foi desenvolvido em Java com framework Spring para disponibilizar uma API com arquitetura REST contendo o mapeamento das rotas. Foram desenvolvidos endpoints CRUD que interagem com dados de pratos, funcionários e estoque para consumo do frontend.
+<br><br>
+
+### Oracle Autonomous Database
+O banco de dados foi alocado em nuvem com o Autonomous Database da Oracle, que permitiu o consumo dos dados de qualquer ambiente com internet. Seu acesso restrito por wallet e backups automáticos foi um fator relevante para a escolha desse banco de dados.
+<br><br>
+
+### Vue.js
+Com o framework do Vue.js foi possível componentizar os elementos do frontend para reutilizá-los em locais diferentes. Suas propriedades de condicional com v-if e looping com v-for proporcionaram uma maior facilidade na exibição dos dados utilizando condições e iterações em componentes.
+<br><br>
+
+### Contribuições Individuais
+<details>
+  <summary><b>Cadastro de alertas de estoque</b></summary>
+  <br>
+  <p>Realizei o consumo da API do backend para cadastrar alertas para avisos de estoque baixo ou validade próxima.</p>
+  
+  ```javascript
+  
+  <script>
+import axios from 'axios';
+
+export default {
+    name: 'alerta',
+    data() {
+        return {
+            formData: {
+                nomeAlerta: "",
+                descricao: "",
+                entidade: "",
+                condicaoDisparo: "",
+                valorParametro: "",
+                acao: "",
+                destinatarios: ""
+            },
+        };
+    },
+    methods: {
+        submitForm() {
+            const jsonData = JSON.stringify(this.formData);
+            axios.post('http://localhost:8081/alerta', jsonData, {
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+                .then(response => {
+                    console.log('Resposta do servidor:', response.data);
+                    this.formSubmitted = true;
+                    alert("Alerta criado");
+                })
+                .catch(error => {
+                    console.error('Erro na solicitação:', error);
+                    alert("Erro ao criar alerta");
+                });
+        }
+    }
+};
+</script>
+  
+  ```
+  
+  <p><i>No exemplo de código acima, é enviado um conteúdo de formulário em formato de JSON em uma requisição HTTP do tipo POST para o endpoint da API que cadastra alertas no banco de dados. E ápós isso é retornado se o cadastro do alerta obteve sucesso ou não.</i></p>
+  <br>
+</details>
+
+<details>
+  <summary><b>Exibição de quadro de funcionários</b></summary>
+  <br>
+  <p>Realizei a exibição dos funcionários escalados em determinado dia conforme dados consumidos da API do backend.</p>
+  
+  ```javascript
+  
+  <template>
+  <div>
+    <p class="funcio">{{ title }}</p>
+    <table class="tabela">
+      <thead>
+        <tr>
+          <th>COLABORADORES ESCALADOS</th>
+          <th>FUNÇÃO</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="(funcao, nome) in funcionarios" :key="nome">
+          <td>{{ nome }}</td>
+          <td>{{ funcao }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</template>
+
+<script>
+import { ref, onMounted } from 'vue';
+import axios from 'axios';
+
+export default {
+  ...
+  methods: {
+    async fetchData(date) {
+        const formattedDate = this.formatDate(this.date);
+      try {
+        const response = await axios.get(`http://localhost:8081/diario/${formattedDate}`);
+        this.funcionarios = response.data.funcionarios || {};
+      } catch (error) {
+        console.error('Erro ao buscar dados:', error);
+      }
+    }
+  ...
+  ```
+  
+  <p><i>No exemplo de código acima, uma tabela com nome e função dos funcionários é montada com um v-for de uma lista, que contém dados de resposta obtidos de uma requisição HTTP, do tipo GET, para um endpoint de obter os funcionários escalados em um determinado dia, que é passado como parâmetro.</i></p>
+  <br>
+</details>
+
+<details>
+  <summary><b>Plotagem de gráficos de desempenho de pratos</b></summary>
+  <br>
+  <p>Realizei a plotagem de gráficos com os pratos, sobremesas e bebidas mais e menos vendidos de acordo com os dados do banco de dados.</p>
+  
+  ```javascript
+  
+  <template>
+  <div class="container">
+    <div class="component-title2">Mais Vendidos</div>
+    <div class="row">
+      <div class="column">
+        <P class="desc-grafico">Principais mais vendidos</P>
+        <bar-chart :data="maisVendidos.principal"></bar-chart>
+      </div>
+      <div class="column">
+        <P class="desc-grafico">Sobremesas mais vendidas</P>
+        <bar-chart :data="maisVendidos.sobremesa"></bar-chart>
+      </div>
+      <div class="column">
+        <P class="desc-grafico">Bebidas mais vendidas</P>
+        <bar-chart :data="maisVendidos.bebida"></bar-chart>
+      </div>
+    </div>
+
+    <div class="component-title3">Menos Vendidos</div>
+    <div class="row">
+      <div class="column">
+        <P class="desc-grafico">Principais menos vendidos</P>
+        <bar-chart :data="menosVendidos.principal"></bar-chart>
+      </div>
+      <div class="column">
+        <P class="desc-grafico">Sobremesas menos vendidas</P>
+        <bar-chart :data="menosVendidos.sobremesa"></bar-chart>
+      </div>
+      <div class="column">
+        <P class="desc-grafico">Bebidas menos vendidas</P>
+        <bar-chart :data="menosVendidos.bebida"></bar-chart>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import axios from 'axios';
+import BarChart from './BarChart.vue';
+
+export default {
+  name: 'pratos',
+  components: {
+    'bar-chart': BarChart,
+  },
+  data() {
+    return {
+      maisVendidos: { principal: [], sobremesa: [], bebida: [] },
+      menosVendidos: { principal: [], sobremesa: [], bebida: [] }
+    };
+  },
+  mounted() {
+    this.fetchData();
+  },
+  methods: {
+    fetchData() {
+      axios.get('http://localhost:8081/pratos/mais-vendidos')
+        .then(response => {
+          this.maisVendidos = response.data;
+        })
+        .catch(error => {
+          console.error('Erro ao buscar pratos mais vendidos: ', error);
+        });
+
+      axios.get('http://localhost:8081/pratos/menos-vendidos')
+        .then(response => {
+          this.menosVendidos = response.data;
+        })
+        .catch(error => {
+          console.error('Erro ao buscar pratos menos vendidos: ', error);
+        });
+    }
+  ```
+  
+  <p><i>No exemplo de código acima, são plotados 6 gráficos de barra, com os pratos principais, sobremesas e bebidas mais e menos vendidos. Cada gráfico recebia seus dados de acordo com as listas resgatadas do banco de dados, em endpoints do tipo GET para consultar os pratos com melhores e piores desempenhos.</i></p>
+  <br>
+</details><br>
+
+### Aprendizados Efetivos
+
+#### HARD SKILLS
+
+<details>
+  <summary>Vue.js</summary>
+  <br>
+    <ul>
+      <li>Condicionais com v-if</li>
+      <li>Looping com v-for</li>
+      <li>Desenvolvimento com componentes</li>
+    </ul>
+  <br>
+</details>
+<details>
+  <summary>DevOps</summary>
+  <br>
+    <ul>
+      <li>Gitflow Workflow</li>
+      <li>Deploy com Github Actions</li>
+      <li>Testes automatizados</li>
+    </ul>
+  <br>
+</details>
+<br>
+
+#### SOFT SKILLS
+<ul>
+      <li>Gestão de tempo: Sendo o responsável pelo frontend da aplicação, precisei gerir bem meu próprio tempo pois as telas dependiam exclusivamente de mim, então uma boa gestão de tempo foi essencial para não gerar atrasos nem pendências nas entregas.</li><br>
+      <li>Criatividade: Para desenvolver telas exclusivas do zero, necessitei de criatividade para criar o layout dos painéis e decidir o que seria mostrado, e onde seria exibido.</li><br>
+      <li>Responsabilidade: Como único desenvolvedor alocado no frontend, necessitei assumir a responsabilidade pelo meu próprio trabalho, cumprir prazos e entregar resultados com valor. Responsabilidade foi essencial para cumprir com minhas devidas atribuições.</li>
+</ul>
+<br>
+
+[Projeto no GitHub](https://github.com/CarcaraTec/Cloud-Kitchen-Oracle)
+
+<br><br>
+
+## Projeto 6: 1º Semestre de 2024
 ### Cloud Kitchen
 <H3 align="center"> Parceiro Acadêmico </H3>
 
