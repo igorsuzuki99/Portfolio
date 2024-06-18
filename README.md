@@ -842,11 +842,11 @@ export default {
 <br><br>
 
 ## Projeto 6: 1º Semestre de 2024
-### IMAGEM
+### Sistema de análise de sentimentos
 <H3 align="center"> Parceiro Acadêmico </H3>
 
 <p align="center">
-<img src="https://github.com/igorsuzuki99/bertoti/blob/4eb1813907df5839051e2f270cdef8abbdbd2187/Projeto%20Trabalho%20de%20Gradua%C3%A7%C3%A3o%20em%20BD%20I/oracle.png" alt="oracle" width="170" height="102">
+<img src="https://github.com/igorsuzuki99/Portfolio/blob/a83d652f36101c75c59c755d9951869008b37b4f/imagem_esri.png" alt="imagem" width="180" height="90">
 </p>
 
 ### Descrição do Projeto
