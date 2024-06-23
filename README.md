@@ -850,8 +850,8 @@ export default {
 </p>
 
 ### Descrição do Projeto
-Desenvolver um sistema web para gerência de um restaurante, com controle de estoque e fornecedores, visualização do desempenho de funcionários e pratos, além de gráficos para facilitar a visualização dos insights relevantes para o dono do estabelecimento. <br>
-A solução foi uma plataforma web, separada em diferentes seções, contendo insights em formas de gráficos, tabelas e cards para visualização de informações sobre estoque, vendas, pratos e funcionários.
+O desafio foi desenvolver um sistema capaz de compreender os sentimentos de clientes através de avaliações online obtidas pelo consumo de um produto ou serviço, para interpretar, em diferentes contextos, as necessidades de seus clientes. <br>
+A solução foi uma plataforma web que, com dados obtidos de avaliações de hotéis, analisava e previa os sentimentos dos clientes através de modelos de machine learning, separando em diferentes categorias e segmentos, possibilitando uma visão mais clara e abrangente do desempenho dos hotéis através de visualização geográfica, e insights de diferentes contextos, com filtros por cidades, datas, hotéis e características específicas dos hóspedes.
 <br><br>
 
 ## Tecnologias Utilizadas &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" width="40" height="40"/>
