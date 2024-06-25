@@ -1055,5 +1055,5 @@ def predict_text(input_text):
 </ul>
 <br>
 
-[Projeto no GitHub](https://github.com/CarcaraTec/Cloud-Kitchen-Oracle)
+[Projeto no GitHub](https://github.com/CarcaraTec/Imagem-api6sem)
 <br><br><br>
