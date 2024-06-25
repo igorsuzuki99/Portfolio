@@ -106,10 +106,10 @@ Para facilitar a visualização dos dados estatísticos, foi utilizado Plotly, u
   <summary>Linguagem Python</summary>
   <br>
     <ul>
-      <li>Lógica, variáveis e tipos de dados</li>
-      <li>Funções</li>
-      <li>Listas e dicionários</li>
-      <li>Manipulação de entrada e saída de arquivos</li>
+      <li>Lógica, variáveis e tipos de dados: sei fazer com autonomia</li>
+      <li>Funções: sei fazer com autonomia</li>
+      <li>Listas e dicionários: sei fazer com ajuda</li>
+      <li>Manipulação de entrada e saída de arquivos: sei fazer com ajuda</li>
     </ul>
   <br>
 </details>
@@ -117,9 +117,9 @@ Para facilitar a visualização dos dados estatísticos, foi utilizado Plotly, u
   <summary>Plotagem de gráficos</summary>
   <br>
     <ul>
-      <li>Popular e construir gráficos</li>
-      <li>Plotagem de diferentes estilos de gráficos</li>
-      <li>Manipulação e personalização de dados estatísticos</li>
+      <li>Popular e construir gráficos: sei fazer com ajuda</li>
+      <li>Plotagem de diferentes estilos de gráficos: sei fazer com ajuda</li>
+      <li>Manipulação e personalização de dados estatísticos: sei fazer com ajuda</li>
     </ul>
   <br>
 </details><br>
@@ -237,10 +237,10 @@ Para armazenamento das informações, foi utilizado o PostgreSQL, um banco relac
   <summary>Linguagem Java</summary>
   <br>
     <ul>
-      <li>Orientação a objetos</li>
-      <li>Funções em Java</li>
-      <li>Integração com banco de dados</li>
-      <li>Tratamento de erros</li>
+      <li>Orientação a objetos: sei fazer com ajuda</li>
+      <li>Funções em Java: sei fazer com ajuda</li>
+      <li>Integração com banco de dados: sei fazer com ajuda</li>
+      <li>Tratamento de erros: sei fazer com ajuda</li>
     </ul>
   <br>
 </details>
@@ -248,8 +248,8 @@ Para armazenamento das informações, foi utilizado o PostgreSQL, um banco relac
   <summary>Banco de dados</summary>
   <br>
     <ul>
-      <li>Consultas personalizadas com SQL</li>
-      <li>Gerenciamento de conexões</li>
+      <li>Consultas personalizadas com SQL: sei fazer com ajuda</li>
+      <li>Gerenciamento de conexões: sei fazer com ajuda</li>
     </ul>
   <br>
 </details>
@@ -257,9 +257,9 @@ Para armazenamento das informações, foi utilizado o PostgreSQL, um banco relac
   <summary>Swing Framework</summary>
   <br>
     <ul>
-      <li>Desenvolvimento através de componentes Swing</li>
-      <li>Gerencimento de componentes GUI</li>
-      <li>Desenvolvimento de aplicação desktop</li>
+      <li>Desenvolvimento através de componentes Swing: sei fazer com autonomia</li>
+      <li>Gerencimento de componentes GUI: sei fazer com ajuda</li>
+      <li>Desenvolvimento de aplicação desktop: sei fazer com ajuda</li>
     </ul>
   <br>
 </details><br>
@@ -383,11 +383,11 @@ Chart.js é uma biblioteca do JavaScript que possibilita a exposição de dados 
   <summary>Spring Framework</summary>
   <br>
     <ul>
-      <li>Desenvolvimento de aplicações web</li>
-      <li>Arquitetura REST</li>
-      <li>Integração com banco de dados</li>
-      <li>Injeção de dependências</li>
-      <li>Desenvolvimento de código através de interfaces</li>
+      <li>Desenvolvimento de aplicações web: sei fazer com ajuda</li>
+      <li>Arquitetura REST: sei fazer com autonomia</li>
+      <li>Integração com banco de dados: sei fazer com autonomia</li>
+      <li>Injeção de dependências: sei fazer com autonomia</li>
+      <li>Desenvolvimento de código através de interfaces: sei fazer com ajuda</li>
     </ul>
   <br>
 </details>
@@ -395,9 +395,9 @@ Chart.js é uma biblioteca do JavaScript que possibilita a exposição de dados 
   <summary>Banco de dados</summary>
   <br>
     <ul>
-      <li>Consultas personalizadas com SQL</li>
-      <li>Geração de scripts</li>
-      <li>Export e import de backup</li>
+      <li>Consultas personalizadas com SQL: sei fazer com autonomia</li>
+      <li>Geração de scripts: sei fazer com autonomia</li>
+      <li>Export e import de backup: sei fazer com autonomia</li>
     </ul>
   <br>
 </details>
@@ -405,12 +405,12 @@ Chart.js é uma biblioteca do JavaScript que possibilita a exposição de dados 
   <summary>Programação</summary>
   <br>
     <ul>
-      <li>Funções em JavaScript</li>
-      <li>Manipulação de variáveis com JavaScript</li>
-      <li>Programação orientada a objetos</li>
-      <li>Consumo de API Rest</li>
-      <li>Gerenciamento de usuários</li>
-      <li>Consumo de recursos de bootstrap</li>
+      <li>Funções em JavaScript: sei fazer com ajuda</li>
+      <li>Manipulação de variáveis com JavaScript: sei fazer com autonomia</li>
+      <li>Programação orientada a objetos: sei fazer com autonomia</li>
+      <li>Consumo de API Rest: sei fazer com autonomia</li>
+      <li>Gerenciamento de usuários: sei fazer com ajuda</li>
+      <li>Consumo de recursos de bootstrap: sei fazer com ajuda</li>
     </ul>
   <br>
 </details><br>
@@ -549,9 +549,9 @@ const gerarPDF = () => {
   <summary>Spring Framework</summary>
   <br>
     <ul>
-      <li>Integração do banco com Spring Data</li>
-      <li>Arquitetura REST</li>
-      <li>Implementação de Spring Security</li>
+      <li>Integração do banco com Spring Data: sei fazer com autonomia</li>
+      <li>Arquitetura REST: sei fazer com autonomia</li>
+      <li>Implementação de Spring Security: sei fazer com ajuda</li>
     </ul>
   <br>
 </details>
@@ -559,9 +559,9 @@ const gerarPDF = () => {
   <summary>Banco de dados</summary>
   <br>
     <ul>
-      <li>Segurança do banco de dados</li>
-      <li>Hospedagem de banco em nuvem</li>
-      <li>Gerenciamento de usuários do banco</li>
+      <li>Segurança do banco de dados: sei fazer com autonomia</li>
+      <li>Hospedagem de banco em nuvem: sei fazer com ajuda</li>
+      <li>Gerenciamento de usuários do banco: sei fazer com ajuda</li>
     </ul>
   <br>
 </details>
@@ -569,10 +569,10 @@ const gerarPDF = () => {
   <summary>Hospedagem em nuvem</summary>
   <br>
     <ul>
-      <li>Configuração de Windows Server</li>
-      <li>Permissionamento de portas do servidor</li>
-      <li>Gerenciamento de firewall</li>
-      <li>Gerenciamento de recursos</li>
+      <li>Configuração de Windows Server: sei fazer com ajuda</li>
+      <li>Permissionamento de portas do servidor: sei fazer com autonomia</li>
+      <li>Gerenciamento de firewall: sei fazer com ajuda</li>
+      <li>Gerenciamento de recursos: sei fazer com ajuda</li>
     </ul>
   <br>
 </details> 
@@ -814,9 +814,9 @@ export default {
   <summary>Vue.js</summary>
   <br>
     <ul>
-      <li>Condicionais com v-if</li>
-      <li>Looping com v-for</li>
-      <li>Desenvolvimento com componentes</li>
+      <li>Condicionais com v-if: sei fazer com ajuda</li>
+      <li>Looping com v-for: sei fazer com ajuda</li>
+      <li>Desenvolvimento com componentes: sei fazer com autonomia</li>
     </ul>
   <br>
 </details>
@@ -824,9 +824,9 @@ export default {
   <summary>DevOps</summary>
   <br>
     <ul>
-      <li>Gitflow Workflow</li>
-      <li>Deploy com Github Actions</li>
-      <li>Testes automatizados</li>
+      <li>Gitflow Workflow: sei fazer com autonomia</li>
+      <li>Deploy com Github Actions: sei fazer com ajuda</li>
+      <li>Testes automatizados: sei fazer com autonomia</li>
     </ul>
   <br>
 </details>
@@ -1020,9 +1020,9 @@ def predict_text(input_text):
   <summary>Python</summary>
   <br>
     <ul>
-      <li>Tratamento de dados</li>
-      <li>Criação de endpoints com flask</li>
-      <li>Desenvolvimento com Jupyter Notebook</li>
+      <li>Tratamento de dados: sei fazer com autonomia</li>
+      <li>Criação de endpoints com flask: sei fazer com autonomia</li>
+      <li>Desenvolvimento com Jupyter Notebook: sei fazer com autonomia</li>
     </ul>
   <br>
 </details>
@@ -1030,10 +1030,10 @@ def predict_text(input_text):
   <summary>Aprendizado de Máquina</summary>
   <br>
     <ul>
-      <li>Preparação de dados para treinamento</li>
-      <li>Treino e teste de diferentes modelos de machine learning</li>
-      <li>Interpretação de resultados e matriz de confusão</li>
-      <li>Uso de algoritmos para classificação de sentimentos</li>
+      <li>Preparação de dados para treinamento: sei fazer com autonomia</li>
+      <li>Treino e teste de diferentes modelos de machine learning: sei fazer com ajuda</li>
+      <li>Interpretação de resultados e matriz de confusão: sei fazer com autonomia</li>
+      <li>Uso de algoritmos para classificação de sentimentos: sei fazer com ajuda</li>
     </ul>
   <br>
 </details>
@@ -1041,9 +1041,9 @@ def predict_text(input_text):
   <summary>Banco de Dados Não-Relacional</summary>
   <br>
     <ul>
-      <li>Criação e uso do MongoDB</li>
-      <li>Conexão do MongoDB com Python</li>
-      <li>Salvamento e busca de documentos</li>
+      <li>Criação e uso do MongoDB: sei fazer com autonomia</li>
+      <li>Conexão do MongoDB com Python: sei fazer com autonomia</li>
+      <li>Salvamento e busca de documentos: sei fazer com autonomia</li>
     </ul>
   <br>
 </details>
