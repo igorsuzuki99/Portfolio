@@ -19,8 +19,11 @@ Atualmente, trabalho como Analista Programador na empresa IACIT e tenho maior do
 
 ## Projeto 1: 2º Semestre de 2021
 ***Visualizador de dados COVID-19***
-<H3 align="center"> Carcará Analysis </H3>
-<H4 align="center"> Interno - FATEC </H4>
+<p align="center">
+ <b> Carcará Analysis </b>
+  <br>
+ Interno - FATEC
+</p>
 
 ### Descrição do Projeto
 O desafio foi desenvolver um projeto com o objetivo de analisar os dados oficiais da COVID-19 no Estado de São Paulo e entregá-los ao usuário de forma clara e contextualizada, através de visualizações gráficas ou não-gráficas.
