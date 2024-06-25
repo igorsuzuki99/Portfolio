@@ -18,8 +18,7 @@ Atualmente, trabalho como Analista Programador na empresa IACIT e tenho maior do
 # Projetos desenvolvidos
 
 ## Projeto 1: 2º Semestre de 2021
-### Visualizador de dados COVID-19
-
+***Visualizador de dados COVID-19***
 <H3 align="center"> Carcará Analysis </H3>
 <H4 align="center"> Interno - FATEC </H4>
 
@@ -138,7 +137,7 @@ Para facilitar a visualização dos dados estatísticos, foi utilizado Plotly, u
 
 
 ## Projeto 2: 1º Semestre de 2022
-### Sistema de cadastro de clientes
+***Sistema de cadastro de clientes***
 
 <H3 align="center">Parceiro Acadêmico</H3>
 
@@ -278,7 +277,7 @@ Para armazenamento das informações, foi utilizado o PostgreSQL, um banco relac
 
 
 ## Projeto 3: 2º Semestre de 2022
-### Visualizador de dados meteorológicos
+***Visualizador de dados meteorológicos***
 
 <H3 align="center"> Parceiro Acadêmico </H3>
 
@@ -428,7 +427,7 @@ Chart.js é uma biblioteca do JavaScript que possibilita a exposição de dados 
 
 
 ## Projeto 4: 1º Semestre de 2023
-### Aircraft Configuration Control: Gerenciador de componentes instalados em aeronaves
+***Aircraft Configuration Control: Gerenciador de componentes instalados em aeronaves***
 
 <H3 align="center">Parceiro Acadêmico</H3>
 <br>
@@ -589,7 +588,7 @@ const gerarPDF = () => {
 <br><br>
 
 ## Projeto 5: 2º Semestre de 2023
-### Cloud Kitchen: Gerenciador de restaurante
+***Cloud Kitchen: Gerenciador de restaurante***
 <H3 align="center"> Parceiro Acadêmico </H3>
 
 <p align="center">
@@ -843,7 +842,7 @@ export default {
 <br><br>
 
 ## Projeto 6: 1º Semestre de 2024
-### Sistema de análise de sentimentos
+***Sistema de análise de sentimentos***
 <H3 align="center"> Parceiro Acadêmico </H3>
 
 <p align="center">
