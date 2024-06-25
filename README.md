@@ -854,206 +854,158 @@ O desafio foi desenvolver um sistema capaz de compreender os sentimentos de clie
 A solução foi uma plataforma web que, com dados obtidos de avaliações de hotéis, analisava e previa os sentimentos dos clientes através de modelos de machine learning, separando em diferentes categorias e segmentos, possibilitando uma visão mais clara e abrangente do desempenho dos hotéis através de visualização geográfica, e insights de diferentes contextos, com filtros por cidades, datas, hotéis e características específicas dos hóspedes.
 <br><br>
 
-## Tecnologias Utilizadas &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" width="40" height="40"/>
+## Tecnologias Utilizadas &nbsp;&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg"  width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="40" height="40"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" width="40" height="40"/>
 
-### Java e Spring 
-O back-end foi desenvolvido em Java com framework Spring para disponibilizar uma API com arquitetura REST contendo o mapeamento das rotas. Foram desenvolvidos endpoints CRUD que interagem com dados de pratos, funcionários e estoque para consumo do frontend.
+### Python a SKLearn
+O Python, além de ser usado para o desenvolvimento da API back-end, também foi utilizado em conjunto com a biblioteca scikit-learn para o treinamento dos modelos de machine learning. Essa biblioteca contém uma série de modelos e ferramentas para auxiliar tanto na preparação de dados, quanto no treinamento dos modelos de aprendizado de máquina, e foi fundamental para o desenvolvimento e aperfeiçoamento do nosso modelo de classificação de sentimentos.
 <br><br>
 
-### Oracle Autonomous Database
-O banco de dados foi alocado em nuvem com o Autonomous Database da Oracle, que permitiu o consumo dos dados de qualquer ambiente com internet. Seu acesso restrito por wallet e backups automáticos foi um fator relevante para a escolha desse banco de dados.
+### Java e Spring 
+Para o gerenciamento de usuários e outras funcionalidades que envolviam os conceitos de LGPD, foi utilizado Spring Boot para o desenvolvimento de um módulo específico para tratar a parte de gerenciamento de acesso. O fácil manuseio e familiaridade com o Java foi decisivo na escolha dessas ferramentas para tratar e implementar os conceitos da LGPD no projeto.
+<br><br>
+
+### MongoDB
+O banco de dados não relacional MongoDB foi escolhido para armazenar os dados que passaram pelo nosso modelo de classificação de sentimentos. Como o MongoDB possui um schema flexível, foi a escolha ideal para armazenar os registros como "documentos", pois os dados não vinham somente com a classificação, mas também com outras informações contidas na base de dados original.
+<br><br>
+
+### MySQL
+Para armazenar os dados referentes ao gerenciamento de acesso, foi utilizado o banco MySQL, por ser um banco relacional de fácil manuseio, para garantir a integridade e relacionamento dos dados dos usuários com os termos aceitos, informações de assinatura e demais logs que eram necessários.
 <br><br>
 
 ### Vue.js
-Com o framework do Vue.js foi possível componentizar os elementos do frontend para reutilizá-los em locais diferentes. Suas propriedades de condicional com v-if e looping com v-for proporcionaram uma maior facilidade na exibição dos dados utilizando condições e iterações em componentes.
+Para o front-end foi utilizado o Vue.js pela familiaridade com o framework, que permitiu desenvolver com maior facilidade os dashboards e gráficos. Como as telas do sistema continham muitos elementos de insights com o mesmo modelo visual, mudando somente o conteúdo dos dados, a componentização fornecida pelo Vue facilitou o desenvolvimento.
 <br><br>
 
 ### Contribuições Individuais
 <details>
-  <summary><b>Cadastro de alertas de estoque</b></summary>
+  <summary><b>Tratamento da base de dados</b></summary>
   <br>
-  <p>Realizei o consumo da API do backend para cadastrar alertas para avisos de estoque baixo ou validade próxima.</p>
+  <p>Realizei o tratamento da base de dados de avaliações de hotéis, para otimizar tanto o manuseio quanto o treinamento com ML posteriormente.</p>
   
-  ```javascript
+  ```python
   
-  <script>
-import axios from 'axios';
+data = pd.read_csv(r'C:\Hotel_Reviews.csv', low_memory=False,delimiter=',', encoding='iso-8859-1', decimal='.')
 
-export default {
-    name: 'alerta',
-    data() {
-        return {
-            formData: {
-                nomeAlerta: "",
-                descricao: "",
-                entidade: "",
-                condicaoDisparo: "",
-                valorParametro: "",
-                acao: "",
-                destinatarios: ""
-            },
-        };
-    },
-    methods: {
-        submitForm() {
-            const jsonData = JSON.stringify(this.formData);
-            axios.post('http://localhost:8081/alerta', jsonData, {
-                headers: {
-                    'Content-Type': 'application/json'
-                }
-            })
-                .then(response => {
-                    console.log('Resposta do servidor:', response.data);
-                    this.formSubmitted = true;
-                    alert("Alerta criado");
-                })
-                .catch(error => {
-                    console.error('Erro na solicitação:', error);
-                    alert("Erro ao criar alerta");
-                });
+df.loc[:, 'Positive_Review'] = data.Positive_Review.apply(lambda x: x.replace('No Positive', ''))
+df.loc[:, 'Negative_Review'] = data.Negative_Review.apply(lambda x: x.replace('No Negative', ''))
+df.sample(5)
+
+def calculate_total_review(row):
+    if row['Reviewer_Score'] < 6:
+        return row['Negative_Review']
+    else:
+        return row['Positive_Review']
+
+df.loc[:,'Total_Review'] = df.apply(calculate_total_review, axis=1)
+
+df.loc[:,'review_type'] = df["Reviewer_Score"].apply(
+    lambda x: "negative" if x < 6 else "positive"
+)
+
+positive_reviews = df_reviews[df_reviews.review_type == "positive"]
+negative_reviews = df_reviews[df_reviews.review_type == "negative"]
+
+min_reviews = min(len(positive_reviews), len(negative_reviews))
+
+positive_df = positive_reviews.sample(n=min_reviews, random_state=42)
+negative_df = negative_reviews.sample(n=min_reviews, random_state=42)
+
+df_review_resampled = pd.concat([positive_df, negative_df], ignore_index=True)
+
+  ```
+  
+  <p><i>No exemplo de código acima, é realizada a importação de um arquivo CSV contendo as avaliações de hotéis, no qual eu realizei alguns tratamentos como: replace de dados redundantes, uma condição para identificar o tipo de avaliação de acordo com a nota fornecida pelo avaliador (se foi uma avaliação negativa eu considero o que tem no campo de comentários negativos, e se for uma avaliação positiva, considero o que tem no campo de comentários positivos), e também faço um equilíbrio na quantidade de dados para o treinamento não ficar desbalanceado.</i></p>
+  <br>
+</details>
+
+<details>
+  <summary><b>Treinamento de modelos de Machine Learning</b></summary>
+  <br>
+  <p>Realizei o treinamento com diferentes modelos de Machine Learning, buscando uma classificação de sentimentos cada vez mais assertiva.</p>
+  
+  ```python
+  
+y = df['review_type']
+y = y.map({'positive': 1, 'negative': 0})
+
+X_train_count, X_test_count, y_train, y_test = train_test_split(text_vect_count, y, test_size=0.2, random_state=42)
+X_train_tfidf, X_test_tfidf, _, _ = train_test_split(text_vect_tfidf, y, test_size=0.2, random_state=42)
+
+def train_and_evaluate_model(model, X_train, X_test, y_train, y_test, model_name):
+    model.fit(X_train, y_train)
+    y_pred = model.predict(X_test)
+    
+    print(f"### {model_name} ###")
+    print(f"Accuracy: {accuracy_score(y_test, y_pred)}")
+    
+    cm = confusion_matrix(y_test, y_pred)
+    disp = ConfusionMatrixDisplay(confusion_matrix=cm)
+    disp.plot()
+    plt.title(f"Confusion Matrix - {model_name}")
+    plt.show()
+    
+    print(classification_report(y_test, y_pred))
+    
+    with open(f'{model_name.lower()}_model.pkl', 'wb') as f:
+        pickle.dump(model, f)
+
+gbc = GradientBoostingClassifier(n_estimators=200, learning_rate=0.1, max_depth=5, random_state=42)
+train_and_evaluate_model(gbc, X_train_count, X_test_count, y_train, y_test, "Gradient Boosting")
+
+lgbm = lgb.LGBMClassifier(n_estimators=1000, learning_rate=0.05, num_leaves=31, max_depth=7, random_state=42)
+train_and_evaluate_model(lgbm, X_train_tfidf, X_test_tfidf, y_train, y_test, "LightGBM")
+
+catboost = CatBoostClassifier(iterations=1000, learning_rate=0.05, depth=6, verbose=100, random_seed=42)
+train_and_evaluate_model(catboost, X_train_tfidf, X_test_tfidf, y_train, y_test, "CatBoost")
+
+xgb = XGBClassifier(n_estimators=600, objective='binary:logistic', learning_rate=0.05, max_depth=5, min_child_weight=3, random_state=42)
+train_and_evaluate_model(xgb, X_train_hash, X_test_hash, y_train, y_test, "XGBoost")
+
+  ```
+  
+  <p><i>No exemplo de código acima, após a importação de um dataframe, os dados foram divididos entre treino e teste e foi declarada uma função para auxiliar no treinamento de diferentes modelos de Machine Learning, realizando o treinamento, teste, exibição de resultados e salvamento do modelo. Neste código foram treinados os modelos GradientBoosting, LightGMB, CatBoost e XGBoost, que são somente alguns modelos entre os vários testados durante o desenvolvimento.</i></p>
+  <br>
+</details>
+
+<details>
+  <summary><b>Classificação de diferentes idiomas e detecção de sarcasmo</b></summary>
+  <br>
+  <p>Implementei as funcionalidades de classificação de diferentes idiomas através de uma biblioteca de tradução, e detecção de sarcarmos com um modelo BERT pré treinado.</p>
+  
+  ```python
+
+def translate_to_english(text):
+   translator = GoogleTranslator(source='auto', target='en')
+   return translator.translate(text)
+
+tokenizer = AutoTokenizer.from_pretrained('nikesh66/Sarcasm-Detection-using-BERT')
+sarcasm_model = AutoModelForSequenceClassification.from_pretrained('nikesh66/Sarcasm-Detection-using-BERT')
+
+def detect_sarcasm(text):
+    inputs = tokenizer(text, return_tensors='pt', truncation=True, padding=True, max_length=512)
+    outputs = sarcasm_model(**inputs)
+    logits = outputs.logits
+    probabilities = torch.softmax(logits, dim=-1).tolist()[0]
+    sarcasm_probability = probabilities[1]
+    return sarcasm_probability
+
+def predict_text(input_text):
+    translated_text = translate_to_english(input_text)
+    sarcasm_probability = detect_sarcasm(translated_text)
+    if sarcasm_probability > 0.6:
+        sentiment = {
+            'sentiment': f'Sarcastic ({sarcasm_probability * 100:.2f}%)'
         }
-    }
-};
-</script>
-  
+    else:
+        predicted_sentiment = predict_sentiment(input_text)
+        sentiment = {
+            'sentiment': predicted_sentiment
+        }
+    return sentiment
+
   ```
   
-  <p><i>No exemplo de código acima, é enviado um conteúdo de formulário em formato de JSON em uma requisição HTTP do tipo POST para o endpoint da API que cadastra alertas no banco de dados. E ápós isso é retornado se o cadastro do alerta obteve sucesso ou não.</i></p>
-  <br>
-</details>
-
-<details>
-  <summary><b>Exibição de quadro de funcionários</b></summary>
-  <br>
-  <p>Realizei a exibição dos funcionários escalados em determinado dia conforme dados consumidos da API do backend.</p>
-  
-  ```javascript
-  
-  <template>
-  <div>
-    <p class="funcio">{{ title }}</p>
-    <table class="tabela">
-      <thead>
-        <tr>
-          <th>COLABORADORES ESCALADOS</th>
-          <th>FUNÇÃO</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="(funcao, nome) in funcionarios" :key="nome">
-          <td>{{ nome }}</td>
-          <td>{{ funcao }}</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</template>
-
-<script>
-import { ref, onMounted } from 'vue';
-import axios from 'axios';
-
-export default {
-  ...
-  methods: {
-    async fetchData(date) {
-        const formattedDate = this.formatDate(this.date);
-      try {
-        const response = await axios.get(`http://localhost:8081/diario/${formattedDate}`);
-        this.funcionarios = response.data.funcionarios || {};
-      } catch (error) {
-        console.error('Erro ao buscar dados:', error);
-      }
-    }
-  ...
-  ```
-  
-  <p><i>No exemplo de código acima, uma tabela com nome e função dos funcionários é montada com um v-for de uma lista, que contém dados de resposta obtidos de uma requisição HTTP, do tipo GET, para um endpoint de obter os funcionários escalados em um determinado dia, que é passado como parâmetro.</i></p>
-  <br>
-</details>
-
-<details>
-  <summary><b>Plotagem de gráficos de desempenho de pratos</b></summary>
-  <br>
-  <p>Realizei a plotagem de gráficos com os pratos, sobremesas e bebidas mais e menos vendidos de acordo com os dados do banco de dados.</p>
-  
-  ```javascript
-  
-  <template>
-  <div class="container">
-    <div class="component-title2">Mais Vendidos</div>
-    <div class="row">
-      <div class="column">
-        <P class="desc-grafico">Principais mais vendidos</P>
-        <bar-chart :data="maisVendidos.principal"></bar-chart>
-      </div>
-      <div class="column">
-        <P class="desc-grafico">Sobremesas mais vendidas</P>
-        <bar-chart :data="maisVendidos.sobremesa"></bar-chart>
-      </div>
-      <div class="column">
-        <P class="desc-grafico">Bebidas mais vendidas</P>
-        <bar-chart :data="maisVendidos.bebida"></bar-chart>
-      </div>
-    </div>
-
-    <div class="component-title3">Menos Vendidos</div>
-    <div class="row">
-      <div class="column">
-        <P class="desc-grafico">Principais menos vendidos</P>
-        <bar-chart :data="menosVendidos.principal"></bar-chart>
-      </div>
-      <div class="column">
-        <P class="desc-grafico">Sobremesas menos vendidas</P>
-        <bar-chart :data="menosVendidos.sobremesa"></bar-chart>
-      </div>
-      <div class="column">
-        <P class="desc-grafico">Bebidas menos vendidas</P>
-        <bar-chart :data="menosVendidos.bebida"></bar-chart>
-      </div>
-    </div>
-  </div>
-</template>
-
-<script>
-import axios from 'axios';
-import BarChart from './BarChart.vue';
-
-export default {
-  name: 'pratos',
-  components: {
-    'bar-chart': BarChart,
-  },
-  data() {
-    return {
-      maisVendidos: { principal: [], sobremesa: [], bebida: [] },
-      menosVendidos: { principal: [], sobremesa: [], bebida: [] }
-    };
-  },
-  mounted() {
-    this.fetchData();
-  },
-  methods: {
-    fetchData() {
-      axios.get('http://localhost:8081/pratos/mais-vendidos')
-        .then(response => {
-          this.maisVendidos = response.data;
-        })
-        .catch(error => {
-          console.error('Erro ao buscar pratos mais vendidos: ', error);
-        });
-
-      axios.get('http://localhost:8081/pratos/menos-vendidos')
-        .then(response => {
-          this.menosVendidos = response.data;
-        })
-        .catch(error => {
-          console.error('Erro ao buscar pratos menos vendidos: ', error);
-        });
-    }
-  ```
-  
-  <p><i>No exemplo de código acima, são plotados 6 gráficos de barra, com os pratos principais, sobremesas e bebidas mais e menos vendidos. Cada gráfico recebia seus dados de acordo com as listas resgatadas do banco de dados, em endpoints do tipo GET para consultar os pratos com melhores e piores desempenhos.</i></p>
+  <p><i>No código acima, é declarada uma função para traduzir textos, que recebe um texto e detecta de forma automática qual seu idioma e traduz para inglês. Também há uma função que detecta sarcasmos utilizando um modelo BERT pré treinado especificamente para detectar sarcasmos, e as duas funções são utilizadas para o tratamento do texto na função de classificação, a qual traduz o texto de entrada para inglês, verifica a probabilidade de sarcasmo e depois realiza a classificação normalmente com o modelo desenvolvido por mim.</i></p>
   <br>
 </details><br>
 
