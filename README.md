@@ -851,7 +851,7 @@ export default {
 </p>
 
 ### Descrição do Projeto
-O desafio consistia em desenvolver um sistema capaz de compreender os sentimentos de clientes através de avaliações online obtidas pelo consumo de um produto ou serviço, para interpretar, em diferentes contextos, as necessidades de seus clientes. <br>
+O desafio consistia em desenvolver um sistema capaz de compreender os sentimentos de clientes através de avaliações online obtidas pelo consumo de um produto ou serviço, para interpretar, em diferentes contextos, as necessidades de seus clientes. <br><br>
 A solução foi uma plataforma web que, com dados obtidos de avaliações de hotéis, analisava e previa os sentimentos dos clientes através de modelos de machine learning, separando em diferentes categorias e segmentos, possibilitando uma visão mais clara e abrangente do desempenho dos hotéis através de visualização geográfica, e insights de diferentes contextos, com filtros por cidades, datas, hotéis e características específicas dos hóspedes.
 <br><br>
 
@@ -1015,22 +1015,33 @@ def predict_text(input_text):
 #### HARD SKILLS
 
 <details>
-  <summary>Vue.js</summary>
+  <summary>Python</summary>
   <br>
     <ul>
-      <li>Condicionais com v-if</li>
-      <li>Looping com v-for</li>
-      <li>Desenvolvimento com componentes</li>
+      <li>Tratamento de dados</li>
+      <li>Criação de endpoints com flask</li>
+      <li>Desenvolvimento com Jupyter Notebook</li>
     </ul>
   <br>
 </details>
 <details>
-  <summary>DevOps</summary>
+  <summary>Aprendizado de Máquina</summary>
   <br>
     <ul>
-      <li>Gitflow Workflow</li>
-      <li>Deploy com Github Actions</li>
-      <li>Testes automatizados</li>
+      <li>Preparação de dados para treinamento</li>
+      <li>Treino e teste de diferentes modelos de machine learning</li>
+      <li>Interpretação de resultados e matriz de confusão</li>
+      <li>Uso de algoritmos para classificação de sentimentos</li>
+    </ul>
+  <br>
+</details>
+<details>
+  <summary>Banco de Dados Não-Relacional</summary>
+  <br>
+    <ul>
+      <li>Criação e uso do MongoDB</li>
+      <li>Conexão do MongoDB com Python</li>
+      <li>Salvamento e busca de documentos</li>
     </ul>
   <br>
 </details>
@@ -1038,9 +1049,9 @@ def predict_text(input_text):
 
 #### SOFT SKILLS
 <ul>
-      <li>Gestão de tempo: Sendo o responsável pelo frontend da aplicação, precisei gerir bem meu próprio tempo pois as telas dependiam exclusivamente de mim, então uma boa gestão de tempo foi essencial para não gerar atrasos nem pendências nas entregas.</li><br>
-      <li>Criatividade: Para desenvolver telas exclusivas do zero, necessitei de criatividade para criar o layout dos painéis e decidir o que seria mostrado, e onde seria exibido.</li><br>
-      <li>Responsabilidade: Como único desenvolvedor alocado no frontend, necessitei assumir a responsabilidade pelo meu próprio trabalho, cumprir prazos e entregar resultados com valor. Responsabilidade foi essencial para cumprir com minhas devidas atribuições.</li>
+      <li>Adaptabilidade: Com novas tecnologias necessárias (machine learning e banco de dados não relacional), necessitei me adaptar com uma linguagem que não tinha familiaridade e também aprender a utilizar novas bibliotecas, ferramentas e frameworks.</li><br>
+      <li>Aprendizado contínuo: Pelo fato de ser meu primeiro contato com aprendizado de máquina, necessitei aprender do zero como era o processo para a criação de um modelo. Inicialmente consegui desenvolver um modelo básico, porém para evoluir cada vez mais, necessitei de um aprendizado contínuo de novos modelos, novas bibliotecas e novos conceitos para melhoria da performance do classificador.</li><br>
+      <li>Resolução de problemas: Durante o desenvolvimento do classificador de sentimentos, me deparei com muitos problemas que não reconhecia o motivo nem a solução, devido à falta de familiaridade com a área de machine learning. Com isso, foram necessárias intensas pesquisas e testes de diferentes cenários para conseguir contornar ou solucionar os problemas no decorrer do projeto.</li>
 </ul>
 <br>
 
