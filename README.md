@@ -24,7 +24,8 @@ Atualmente tenho maior domínio de habilidades em Java, Banco de Dados Relaciona
 <H4 align="center"> Interno - FATEC </H4>
 
 ### Descrição do Projeto
-Desenvolver um projeto com o objetivo de analisar os dados oficiais da COVID-19 no Estado de São Paulo e entregá-los ao usuário de forma clara e contextualizada, através de visualizações gráficas ou não-gráficas.<br>
+O desafio foi desenvolver um projeto com o objetivo de analisar os dados oficiais da COVID-19 no Estado de São Paulo e entregá-los ao usuário de forma clara e contextualizada, através de visualizações gráficas ou não-gráficas.
+<br><br>
 A solução foi um sistema web em Python através do Flask, que a partir dos CSVs disponilizados pelo governo contendo dados estatísticos da COVID, mostrava para o usuário gráficos de diferentes tipos, como barras e setores, que continham estatísticas sobre o vírus e também demais insights relevantes que eram calculados através dos dados já existentes.
 <br><br>
 
@@ -146,7 +147,7 @@ Para facilitar a visualização dos dados estatísticos, foi utilizado Plotly, u
 </p>
 
 ### Descrição do Projeto
-Desenvolvimento de uma plataforma para criação e ativação de clientes para posterior uso da empresa. O projeto devia contar com telas de cadastro que inserem informações no banco de dados para posterior exibição na tela de consulta dos clientes.<br>
+O desafio foi criar uma plataforma para criação e ativação de clientes para posterior uso da empresa. O projeto devia contar com telas de cadastro que inserem informações no banco de dados para posterior exibição na tela de consulta dos clientes.<br><br>
 A solução foi um aplicativo desktop em Java através de interface GUI, na qual eram dispostos componentes swing para formar etapas de um cadastro, os dados preenchidos nesses componentes eram salvos no banco de dados conforme o usuário avançava nas etapas do formulário.
 <br><br>
 
@@ -286,7 +287,7 @@ Para armazenamento das informações, foi utilizado o PostgreSQL, um banco relac
 </p>
 
 ### Descrição do Projeto
-Desenvolvimento de um sistema no qual seja possível importar, pesquisar e gerar relatórios de dados meteorológicos. Além disso, alocação dos dados disponibilizados no site do Instituto Nacional de Meteorologia (INMET) para um banco de dados, para integrar com o sistema desenvolvido.<br>
+O desafio consistia no desenvolvimento de um sistema no qual seja possível importar, pesquisar e gerar relatórios de dados meteorológicos. Além disso, alocação dos dados disponibilizados no site do Instituto Nacional de Meteorologia (INMET) para um banco de dados, para integrar com o sistema desenvolvido.<br><br>
 A solução foi uma aplicação com interface web, que dispõe de um mecanismo de filtro no qual é possível filtrar os registros por datas, regiões, estados, localidades e tipo de dado, para posteriormente expor as informações em formato de gráficos e com a possibilidade de exportar um relatório com base na consulta realizada.
 <br><br>
 
@@ -437,7 +438,7 @@ Chart.js é uma biblioteca do JavaScript que possibilita a exposição de dados 
 <br>
 
 ### Descrição do Projeto
-Desenvolvimento de uma plataforma em que o usuário consulte itens instalados nas aeronaves. O sistema inclui a verificação e edição de itens instalados ou aplicáveis a determinados "chassis" conforme base de dados fornecida.<br>
+O desafio era a criação de uma plataforma em que o usuário consulte itens instalados nas aeronaves. O sistema inclui a verificação e edição de itens instalados ou aplicáveis a determinados "chassis" conforme base de dados fornecida.<br><br>
 A solução foi um sistema que possuía todas as lógicas de formação de todos os itens armazenadas no banco de dados, dessa forma, a partir do chassi consultado, a lógica de composição dos itens era consultada no banco e os itens que eram compatíveis com o chassi em questão eram mostrados na tela para o usuário. Para melhor usabilidade do sistema, foi utilizada hospedagem em nuvem, que permitiu o acesso do sistema tanto pelo computador, como pelo celular ou qualquer outro dispositivo com acesso ao navegador com internet.
 <br><br><br>
 
@@ -596,7 +597,7 @@ const gerarPDF = () => {
 </p>
 
 ### Descrição do Projeto
-Desenvolver um sistema web para gerência de um restaurante, com controle de estoque e fornecedores, visualização do desempenho de funcionários e pratos, além de gráficos para facilitar a visualização dos insights relevantes para o dono do estabelecimento. <br>
+O desafio abrangia o desenvolvimento de um sistema web para gerência de um restaurante, com controle de estoque e fornecedores, visualização do desempenho de funcionários e pratos, além de gráficos para facilitar a visualização dos insights relevantes para o dono do estabelecimento. <br><br>
 A solução foi uma plataforma web, separada em diferentes seções, contendo insights em formas de gráficos, tabelas e cards para visualização de informações sobre estoque, vendas, pratos e funcionários.
 <br><br>
 
@@ -850,7 +851,7 @@ export default {
 </p>
 
 ### Descrição do Projeto
-O desafio foi desenvolver um sistema capaz de compreender os sentimentos de clientes através de avaliações online obtidas pelo consumo de um produto ou serviço, para interpretar, em diferentes contextos, as necessidades de seus clientes. <br>
+O desafio consistia em desenvolver um sistema capaz de compreender os sentimentos de clientes através de avaliações online obtidas pelo consumo de um produto ou serviço, para interpretar, em diferentes contextos, as necessidades de seus clientes. <br>
 A solução foi uma plataforma web que, com dados obtidos de avaliações de hotéis, analisava e previa os sentimentos dos clientes através de modelos de machine learning, separando em diferentes categorias e segmentos, possibilitando uma visão mais clara e abrangente do desempenho dos hotéis através de visualização geográfica, e insights de diferentes contextos, com filtros por cidades, datas, hotéis e características específicas dos hóspedes.
 <br><br>
 
