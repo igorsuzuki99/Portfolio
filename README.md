@@ -258,7 +258,7 @@ Para armazenamento das informações, foi utilizado o PostgreSQL, um banco relac
   <br>
     <ul>
       <li>Desenvolvimento através de componentes Swing: sei fazer com autonomia</li>
-      <li>Gerencimento de componentes GUI: sei fazer com ajuda</li>
+      <li>Gerenciamento de componentes GUI: sei fazer com ajuda</li>
       <li>Desenvolvimento de aplicação desktop: sei fazer com ajuda</li>
     </ul>
   <br>
