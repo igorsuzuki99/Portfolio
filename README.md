@@ -582,7 +582,7 @@ const gerarPDF = () => {
 <ul>
       <li>Pensamento crítico: Com a complexidade do projeto, necessitei desenvolver meu pensamento crítico para saber qual melhor caminho seguir e priorizar o que era mais importante para desenvolver uma solução para a regra de negócio mais complexa do projeto.</li><br>
       <li>Adaptabilidade: A partir da decisão de hospedar o sistema em nuvem e um dos requisitos ser a utilização do framework Vue.js, precisei me adaptar com novos ambientes e tecnologias com as quais nunca tive contato, o próprio Vue, e o sistema operacional Linux.</li><br>
-      <li>Trabalho em equipe: Nesse projeto foi essencial a harmonia entre a equipe, pois com as novas tecnologias foi necessário que todos aprendessem algo novo, de forma a conseguir repassar para os colegas de que forma seria implementado no projeto. Através da boa comunicação e trabalho em equipe conseguimos concilicar o desenvolvimento de maneira mais eficiente.</li>
+      <li>Trabalho em equipe: Nesse projeto foi essencial a harmonia entre a equipe, pois com as novas tecnologias foi necessário que todos aprendessem algo novo, de forma a conseguir repassar para os colegas de que forma seria implementado no projeto. Através da boa comunicação e trabalho em equipe conseguimos conciliar o desenvolvimento de maneira mais eficiente.</li>
 </ul>
 <br>
 
