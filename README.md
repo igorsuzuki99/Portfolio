@@ -1,10 +1,16 @@
 <H1 align="center"> Igor Suzuki Kira </H1>
  
  # Sumário 
- [1. Introdução](#introdução)
+ [1. INTRODUÇÃO](#introdução)
  
-[2. Projetos Desenvolvidos](#projetos-desenvolvidos)   
+[2. PROJETOS DESENVOLVIDOS](#projetos-desenvolvidos)   
    - [Projeto 1](#projeto1)
+   - [Projeto 2](#projeto2)
+   - [Projeto 3](#projeto3)
+   - [Projeto 4](#projeto4)
+   - [Projeto 5](#projeto5)
+   - [Projeto 6](#projeto6)
+   
    
     
  
