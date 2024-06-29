@@ -147,6 +147,7 @@ Para facilitar a visualização dos dados estatísticos, foi utilizado Plotly, u
 
 <br><br>
 
+<div id='projeto2' />
 
 
 ## Projeto 2: 1º Semestre de 2022
@@ -287,6 +288,7 @@ Para armazenamento das informações, foi utilizado o PostgreSQL, um banco relac
 <br><br>
 
 
+<div id='projeto3' />
 
 
 ## Projeto 3: 2º Semestre de 2022
@@ -437,6 +439,8 @@ Chart.js é uma biblioteca do JavaScript que possibilita a exposição de dados 
 [Projeto no GitHub](https://github.com/igorsuzuki99/IACIT)
 
 <br><br>
+
+<div id='projeto4' />
 
 
 ## Projeto 4: 1º Semestre de 2023
@@ -599,6 +603,9 @@ const gerarPDF = () => {
 [Projeto no GitHub](https://github.com/igorsuzuki99/Embraer)
 
 <br><br>
+
+<div id='projeto5' />
+
 
 ## Projeto 5: 2º Semestre de 2023
 ***Cloud Kitchen: Gerenciador de restaurante***
@@ -853,6 +860,9 @@ export default {
 [Projeto no GitHub](https://github.com/CarcaraTec/Cloud-Kitchen-Oracle)
 
 <br><br>
+
+<div id='projeto6' />
+
 
 ## Projeto 6: 1º Semestre de 2024
 ***Sistema de análise de sentimentos***
