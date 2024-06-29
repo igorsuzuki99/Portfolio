@@ -667,7 +667,7 @@ export default {
   
   ```
   
-  <p><i>No exemplo de código acima, é enviado um conteúdo de formulário em formato de JSON em uma requisição HTTP do tipo POST para o endpoint da API que cadastra alertas no banco de dados. E ápós isso é retornado se o cadastro do alerta obteve sucesso ou não.</i></p>
+  <p><i>No exemplo de código acima, é enviado um conteúdo de formulário em formato de JSON em uma requisição HTTP do tipo POST para o endpoint da API que cadastra alertas no banco de dados. Após isso, é retornado se o cadastro do alerta obteve sucesso ou não.</i></p>
   <br>
 </details>
 
