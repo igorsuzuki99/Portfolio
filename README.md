@@ -531,7 +531,7 @@ const gerarPDF = () => {
   };
   ```
   
-  <p><i>No trecho de código acima foi utilizada a biblioteca do pdfMake, biblioteca para gerar e exportar documentos PDF. No corpo do dcoumento foram atribuídas as informações que serão expostas: o item, e se ele está instalado. E no final é chamado o método de createPdf para exportar o documento.</i></p>
+  <p><i>No trecho de código acima foi utilizada a biblioteca do pdfMake, biblioteca para gerar e exportar documentos PDF. No corpo do docoumento foram atribuídas as informações que serão expostas: o item, e se ele está instalado. E no final é chamado o método de createPdf para exportar o documento.</i></p>
   <br>
 </details>
 <details>
