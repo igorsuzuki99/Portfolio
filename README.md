@@ -26,6 +26,7 @@ Atualmente, trabalho como Analista Programador na empresa IACIT e tenho maior do
  
 # Projetos desenvolvidos
 <div id='projeto1' />
+ 
 ## Projeto 1: 2º Semestre de 2021
 ***Visualizador de dados COVID-19***
 <p align="center">
