@@ -622,7 +622,7 @@ const gerarPDF = () => {
 </p>
 
 ### Descrição do Projeto
-O desafio abrangia o desenvolvimento de um sistema web para gerência de um restaurante, com controle de estoque e fornecedores, visualização do desempenho de funcionários e pratos, além de gráficos para facilitar a visualização dos insights relevantes para o dono do estabelecimento. <br><br>
+O desafio abrange o desenvolvimento de um sistema web para gerência de um restaurante, com controle de estoque e fornecedores, visualização do desempenho de funcionários e pratos, além de gráficos para facilitar a visualização dos insights relevantes para o dono do estabelecimento. <br><br>
 A solução foi uma plataforma web, separada em diferentes seções, contendo insights em formas de gráficos, tabelas e cards para visualização de informações sobre estoque, vendas, pratos e funcionários.
 <br><br>
 
@@ -879,7 +879,7 @@ export default {
 </p>
 
 ### Descrição do Projeto
-O desafio consistia em desenvolver um sistema capaz de compreender os sentimentos de clientes através de avaliações online obtidas pelo consumo de um produto ou serviço, para interpretar, em diferentes contextos, as necessidades de seus clientes. <br><br>
+O desafio consiste em desenvolver um sistema capaz de compreender os sentimentos de clientes através de avaliações online obtidas pelo consumo de um produto ou serviço, para interpretar, em diferentes contextos, as necessidades de seus clientes. <br><br>
 A solução foi uma plataforma web que, com dados obtidos de avaliações de hotéis, analisava e previa os sentimentos dos clientes através de modelos de machine learning, separando em diferentes categorias e segmentos, possibilitando uma visão mais clara e abrangente do desempenho dos hotéis através de visualização geográfica, e insights de diferentes contextos, com filtros por cidades, datas, hotéis e características específicas dos hóspedes.
 <br><br>
 
